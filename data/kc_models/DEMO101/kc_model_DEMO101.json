@@ -1,0 +1,2213 @@
+{
+  "course_info": {
+    "course_code": "DEMO101",
+    "course_name": "Introduction to AI/ML",
+    "total_weeks": 3
+  },
+  "week_navigation": {
+    "week_01": {
+      "week_number": 1,
+      "week_name": "Introduction to AI",
+      "week_display": "Week 1: Introduction to AI",
+      "learning_objectives": [
+        {
+          "lo_id": "LO_01_01",
+          "title": "AI Basics",
+          "short_title": "AI Basics",
+          "description": "Learning objective covering: Definition of AI, Types of AI, AI Applications, AI Limitations",
+          "granular_count": 4,
+          "estimated_time": 60,
+          "difficulty": 2,
+          "complexity": "basic",
+          "granular_objectives": [
+            {
+              "go_id": "GO_01_01_001",
+              "skill_name": "Definition Of Ai",
+              "description": "Students will recall the concept of definition of ai and its role in ai basics. This includes understanding ai_basics.",
+              "cognitive_level": "Remember",
+              "mastery_threshold": 0.6,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "ai_basics"
+              ],
+              "prerequisite_concepts": []
+            },
+            {
+              "go_id": "GO_01_01_002",
+              "skill_name": "Types Of Ai",
+              "description": "Students will explain the concept of types of ai and its role in ai basics. This includes understanding ai_basics, Definition of AI.",
+              "cognitive_level": "Understand",
+              "mastery_threshold": 0.65,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "ai_basics",
+                "Definition of AI"
+              ],
+              "prerequisite_concepts": [
+                "Definition of AI"
+              ]
+            },
+            {
+              "go_id": "GO_01_01_003",
+              "skill_name": "Ai Applications",
+              "description": "Students will implement ai applications procedures and techniques in practical scenarios. This includes understanding ai_basics, Definition of AI.",
+              "cognitive_level": "Apply",
+              "mastery_threshold": 0.75,
+              "estimated_time_minutes": 15,
+              "skill_category": "procedural",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "ai_basics",
+                "Definition of AI",
+                "Types of AI"
+              ],
+              "prerequisite_concepts": [
+                "Definition of AI",
+                "Types of AI"
+              ]
+            },
+            {
+              "go_id": "GO_01_01_004",
+              "skill_name": "Ai Limitations",
+              "description": "Students will analyze ai limitations concepts to demonstrate understanding of ai basics. This includes understanding ai_basics, Definition of AI.",
+              "cognitive_level": "Analyze",
+              "mastery_threshold": 0.85,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "ai_basics",
+                "Definition of AI",
+                "Types of AI"
+              ],
+              "prerequisite_concepts": [
+                "Definition of AI",
+                "Types of AI",
+                "AI Applications"
+              ]
+            }
+          ]
+        },
+        {
+          "lo_id": "LO_01_02",
+          "title": "AI Types Overview",
+          "short_title": "AI Types Overview",
+          "description": "Learning objective covering: Understanding AI Categories, Identifying AI Technologies, Analyzing AI Applications",
+          "granular_count": 3,
+          "estimated_time": 45,
+          "difficulty": 3,
+          "complexity": "basic",
+          "granular_objectives": [
+            {
+              "go_id": "GO_01_02_001",
+              "skill_name": "Understanding Ai Categories",
+              "description": "Students will explain the concept of understanding ai categories and its role in ai types overview. This includes understanding ai_types_overview.",
+              "cognitive_level": "Understand",
+              "mastery_threshold": 0.65,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "ai_types_overview",
+                "Basic understanding of AI"
+              ],
+              "prerequisite_concepts": [
+                "Basic understanding of AI"
+              ]
+            },
+            {
+              "go_id": "GO_01_02_002",
+              "skill_name": "Identifying Ai Technologies",
+              "description": "Students will recall how to perform identifying ai technologies in various contexts. This includes understanding ai_types_overview, Understanding AI Categories.",
+              "cognitive_level": "Remember",
+              "mastery_threshold": 0.65,
+              "estimated_time_minutes": 15,
+              "skill_category": "analytical",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "ai_types_overview",
+                "Understanding AI Categories"
+              ],
+              "prerequisite_concepts": [
+                "Understanding AI Categories"
+              ]
+            },
+            {
+              "go_id": "GO_01_02_003",
+              "skill_name": "Analyzing Ai Applications",
+              "description": "Students will analyze the steps and methods involved in analyzing ai applications. This includes understanding ai_types_overview, Understanding AI Categories.",
+              "cognitive_level": "Analyze",
+              "mastery_threshold": 0.85,
+              "estimated_time_minutes": 15,
+              "skill_category": "procedural",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "ai_types_overview",
+                "Understanding AI Categories",
+                "Identifying AI Technologies"
+              ],
+              "prerequisite_concepts": [
+                "Understanding AI Categories",
+                "Identifying AI Technologies"
+              ]
+            }
+          ]
+        },
+        {
+          "lo_id": "LO_01_03",
+          "title": "AI vs ML Distinction",
+          "short_title": "AI vs ML Distinction",
+          "description": "Learning objective covering: Defining AI, Defining ML, Differentiating AI and ML, AI and ML Interrelation",
+          "granular_count": 4,
+          "estimated_time": 60,
+          "difficulty": 2,
+          "complexity": "basic",
+          "granular_objectives": [
+            {
+              "go_id": "GO_01_03_001",
+              "skill_name": "Defining Ai",
+              "description": "Students will recall the concept of defining ai and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction.",
+              "cognitive_level": "Remember",
+              "mastery_threshold": 0.6,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "ai_vs_ml_distinction"
+              ],
+              "prerequisite_concepts": []
+            },
+            {
+              "go_id": "GO_01_03_002",
+              "skill_name": "Defining Ml",
+              "description": "Students will recall the concept of defining ml and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction.",
+              "cognitive_level": "Remember",
+              "mastery_threshold": 0.6,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "ai_vs_ml_distinction"
+              ],
+              "prerequisite_concepts": []
+            },
+            {
+              "go_id": "GO_01_03_003",
+              "skill_name": "Differentiating Ai And Ml",
+              "description": "Students will explain the concept of differentiating ai and ml and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction, Defining AI.",
+              "cognitive_level": "Understand",
+              "mastery_threshold": 0.7,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "ai_vs_ml_distinction",
+                "Defining AI",
+                "Defining ML"
+              ],
+              "prerequisite_concepts": [
+                "Defining AI",
+                "Defining ML"
+              ]
+            },
+            {
+              "go_id": "GO_01_03_004",
+              "skill_name": "Ai And Ml Interrelation",
+              "description": "Students will explain the concept of ai and ml interrelation and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction, Defining AI.",
+              "cognitive_level": "Understand",
+              "mastery_threshold": 0.7,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "ai_vs_ml_distinction",
+                "Defining AI",
+                "Defining ML"
+              ],
+              "prerequisite_concepts": [
+                "Defining AI",
+                "Defining ML"
+              ]
+            }
+          ]
+        }
+      ],
+      "total_time_minutes": 165,
+      "total_granular_objectives": 11
+    },
+    "week_02": {
+      "week_number": 2,
+      "week_name": "Machine Learning Basics",
+      "week_display": "Week 2: Machine Learning Basics",
+      "learning_objectives": [
+        {
+          "lo_id": "LO_02_04",
+          "title": "ML Definition",
+          "short_title": "ML Definition",
+          "description": "Learning objective covering: Understanding the term 'Machine Learning', Differentiating Machine Learning from AI, Identifying types of Machine Learning",
+          "granular_count": 3,
+          "estimated_time": 45,
+          "difficulty": 2,
+          "complexity": "basic",
+          "granular_objectives": [
+            {
+              "go_id": "GO_02_04_001",
+              "skill_name": "Understanding The Term 'Machine Learning'",
+              "description": "Students will recall the concept of understanding the term 'machine learning' and its role in ml definition. This includes understanding ml_definition.",
+              "cognitive_level": "Remember",
+              "mastery_threshold": 0.6,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "ml_definition"
+              ],
+              "prerequisite_concepts": []
+            },
+            {
+              "go_id": "GO_02_04_002",
+              "skill_name": "Differentiating Machine Learning From Ai",
+              "description": "Students will explain the concept of differentiating machine learning from ai and its role in ml definition. This includes understanding ml_definition, Understanding the term 'Machine Learning'.",
+              "cognitive_level": "Understand",
+              "mastery_threshold": 0.65,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "ml_definition",
+                "Understanding the term 'Machine Learning'"
+              ],
+              "prerequisite_concepts": [
+                "Understanding the term 'Machine Learning'"
+              ]
+            },
+            {
+              "go_id": "GO_02_04_003",
+              "skill_name": "Identifying Types Of Machine Learning",
+              "description": "Students will explain how to perform identifying types of machine learning in various contexts. This includes understanding ml_definition, Understanding the term 'Machine Learning'.",
+              "cognitive_level": "Understand",
+              "mastery_threshold": 0.7,
+              "estimated_time_minutes": 15,
+              "skill_category": "analytical",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "ml_definition",
+                "Understanding the term 'Machine Learning'"
+              ],
+              "prerequisite_concepts": [
+                "Understanding the term 'Machine Learning'"
+              ]
+            }
+          ]
+        },
+        {
+          "lo_id": "LO_02_05",
+          "title": "Supervised vs Unsupervise",
+          "short_title": "Supervised vs Unsupervise",
+          "description": "Learning objective covering: Understanding Supervised Learning, Understanding Unsupervised Learning, Distinguishing Supervised vs Unsupervised",
+          "granular_count": 3,
+          "estimated_time": 45,
+          "difficulty": 2,
+          "complexity": "basic",
+          "granular_objectives": [
+            {
+              "go_id": "GO_02_05_001",
+              "skill_name": "Understanding Supervised Learning",
+              "description": "Students will explain the concept of understanding supervised learning and its role in supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Introduction to Machine Learning.",
+              "cognitive_level": "Understand",
+              "mastery_threshold": 0.65,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "supervised_vs_unsupervise",
+                "Introduction to Machine Learning"
+              ],
+              "prerequisite_concepts": [
+                "Introduction to Machine Learning"
+              ]
+            },
+            {
+              "go_id": "GO_02_05_002",
+              "skill_name": "Understanding Unsupervised Learning",
+              "description": "Students will explain the concept of understanding unsupervised learning and its role in supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Introduction to Machine Learning.",
+              "cognitive_level": "Understand",
+              "mastery_threshold": 0.65,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "supervised_vs_unsupervise",
+                "Introduction to Machine Learning"
+              ],
+              "prerequisite_concepts": [
+                "Introduction to Machine Learning"
+              ]
+            },
+            {
+              "go_id": "GO_02_05_003",
+              "skill_name": "Distinguishing Supervised Vs Unsupervised",
+              "description": "Students will analyze distinguishing supervised vs unsupervised concepts to demonstrate understanding of supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Understanding Supervised Learning.",
+              "cognitive_level": "Analyze",
+              "mastery_threshold": 0.81,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "supervised_vs_unsupervise",
+                "Understanding Supervised Learning",
+                "Understanding Unsupervised Learning"
+              ],
+              "prerequisite_concepts": [
+                "Understanding Supervised Learning",
+                "Understanding Unsupervised Learning"
+              ]
+            }
+          ]
+        },
+        {
+          "lo_id": "LO_02_06",
+          "title": "Common ML Algorithms",
+          "short_title": "Common ML Algorithms",
+          "description": "Learning objective covering: Understanding of ML Algorithm Types, Knowledge of Specific ML Algorithms, Understanding ML Algorithm Applications",
+          "granular_count": 3,
+          "estimated_time": 45,
+          "difficulty": 3,
+          "complexity": "basic",
+          "granular_objectives": [
+            {
+              "go_id": "GO_02_06_001",
+              "skill_name": "Understanding Of Ml Algorithm Types",
+              "description": "Students will explain the concept of understanding of ml algorithm types and its role in common ml algorithms. This includes understanding common_ml_algorithms.",
+              "cognitive_level": "Understand",
+              "mastery_threshold": 0.65,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "common_ml_algorithms",
+                "Basic understanding of AI/ML"
+              ],
+              "prerequisite_concepts": [
+                "Basic understanding of AI/ML"
+              ]
+            },
+            {
+              "go_id": "GO_02_06_002",
+              "skill_name": "Knowledge Of Specific Ml Algorithms",
+              "description": "Students will recall the concept of knowledge of specific ml algorithms and its role in common ml algorithms. This includes understanding common_ml_algorithms, Understanding of ML Algorithm Types.",
+              "cognitive_level": "Remember",
+              "mastery_threshold": 0.66,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "common_ml_algorithms",
+                "Understanding of ML Algorithm Types"
+              ],
+              "prerequisite_concepts": [
+                "Understanding of ML Algorithm Types"
+              ]
+            },
+            {
+              "go_id": "GO_02_06_003",
+              "skill_name": "Understanding Ml Algorithm Applications",
+              "description": "Students will implement understanding ml algorithm applications procedures and techniques in practical scenarios. This includes understanding common_ml_algorithms, Knowledge of Specific ML Algorithms.",
+              "cognitive_level": "Apply",
+              "mastery_threshold": 0.81,
+              "estimated_time_minutes": 15,
+              "skill_category": "procedural",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "common_ml_algorithms",
+                "Knowledge of Specific ML Algorithms"
+              ],
+              "prerequisite_concepts": [
+                "Knowledge of Specific ML Algorithms"
+              ]
+            }
+          ]
+        }
+      ],
+      "total_time_minutes": 135,
+      "total_granular_objectives": 9
+    },
+    "week_03": {
+      "week_number": 3,
+      "week_name": "Neural Networks",
+      "week_display": "Week 3: Neural Networks",
+      "learning_objectives": [
+        {
+          "lo_id": "LO_03_07",
+          "title": "NeuralNetworkMechanics",
+          "short_title": "NeuralNetworkMechanics",
+          "description": "Learning objective covering: Understanding Neural Network Structure, Neuron Activation Functions, Neural Network Training, Neural Network Applications",
+          "granular_count": 4,
+          "estimated_time": 60,
+          "difficulty": 3,
+          "complexity": "basic",
+          "granular_objectives": [
+            {
+              "go_id": "GO_03_07_001",
+              "skill_name": "Understanding Neural Network Structure",
+              "description": "Students will explain the concept of understanding neural network structure and its role in neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+              "cognitive_level": "Understand",
+              "mastery_threshold": 0.66,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "neuralnetworkmechanics",
+                "BasicMathematics",
+                "IntroToAI"
+              ],
+              "prerequisite_concepts": [
+                "BasicMathematics",
+                "IntroToAI"
+              ]
+            },
+            {
+              "go_id": "GO_03_07_002",
+              "skill_name": "Neuron Activation Functions",
+              "description": "Students will explain the concept of neuron activation functions and its role in neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+              "cognitive_level": "Understand",
+              "mastery_threshold": 0.71,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "neuralnetworkmechanics",
+                "BasicMathematics",
+                "IntroToAI"
+              ],
+              "prerequisite_concepts": [
+                "BasicMathematics",
+                "IntroToAI"
+              ]
+            },
+            {
+              "go_id": "GO_03_07_003",
+              "skill_name": "Neural Network Training",
+              "description": "Students will implement neural network training concepts to demonstrate understanding of neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+              "cognitive_level": "Apply",
+              "mastery_threshold": 0.81,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "neuralnetworkmechanics",
+                "BasicMathematics",
+                "IntroToAI"
+              ],
+              "prerequisite_concepts": [
+                "BasicMathematics",
+                "IntroToAI",
+                "BasicStatistics"
+              ]
+            },
+            {
+              "go_id": "GO_03_07_004",
+              "skill_name": "Neural Network Applications",
+              "description": "Students will implement neural network applications procedures and techniques in practical scenarios. This includes understanding neuralnetworkmechanics, IntroToAI.",
+              "cognitive_level": "Apply",
+              "mastery_threshold": 0.76,
+              "estimated_time_minutes": 15,
+              "skill_category": "procedural",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "neuralnetworkmechanics",
+                "IntroToAI"
+              ],
+              "prerequisite_concepts": [
+                "IntroToAI"
+              ]
+            }
+          ]
+        },
+        {
+          "lo_id": "LO_03_08",
+          "title": "ActivationFunctions101",
+          "short_title": "ActivationFunctions101",
+          "description": "Learning objective covering: Understanding Basic Activation Functions, Activation Function Application, Analyzing Activation Function Impact, Advanced Activation Functions",
+          "granular_count": 4,
+          "estimated_time": 60,
+          "difficulty": 3,
+          "complexity": "basic",
+          "granular_objectives": [
+            {
+              "go_id": "GO_03_08_001",
+              "skill_name": "Understanding Basic Activation Functions",
+              "description": "Students will explain the concept of understanding basic activation functions and its role in activationfunctions101. This includes understanding activationfunctions101, MathematicsBasics.",
+              "cognitive_level": "Understand",
+              "mastery_threshold": 0.66,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "activationfunctions101",
+                "BasicNeuralNetworks",
+                "MathematicsBasics"
+              ],
+              "prerequisite_concepts": [
+                "BasicNeuralNetworks",
+                "MathematicsBasics"
+              ]
+            },
+            {
+              "go_id": "GO_03_08_002",
+              "skill_name": "Activation Function Application",
+              "description": "Students will implement activation function application procedures and techniques in practical scenarios. This includes understanding activationfunctions101, UnderstandingBasicActivationFunctions.",
+              "cognitive_level": "Apply",
+              "mastery_threshold": 0.76,
+              "estimated_time_minutes": 15,
+              "skill_category": "procedural",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "activationfunctions101",
+                "UnderstandingBasicActivationFunctions",
+                "NeuralNetworkModeling"
+              ],
+              "prerequisite_concepts": [
+                "UnderstandingBasicActivationFunctions",
+                "NeuralNetworkModeling"
+              ]
+            },
+            {
+              "go_id": "GO_03_08_003",
+              "skill_name": "Analyzing Activation Function Impact",
+              "description": "Students will analyze analyzing activation function impact concepts to demonstrate understanding of activationfunctions101. This includes understanding activationfunctions101, ActivationFunctionApplication.",
+              "cognitive_level": "Analyze",
+              "mastery_threshold": 0.86,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "activationfunctions101",
+                "ActivationFunctionApplication",
+                "PerformanceMetrics"
+              ],
+              "prerequisite_concepts": [
+                "ActivationFunctionApplication",
+                "PerformanceMetrics"
+              ]
+            },
+            {
+              "go_id": "GO_03_08_004",
+              "skill_name": "Advanced Activation Functions",
+              "description": "Students will explain the concept of advanced activation functions and its role in activationfunctions101. This includes understanding activationfunctions101, UnderstandingBasicActivationFunctions.",
+              "cognitive_level": "Understand",
+              "mastery_threshold": 0.71,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "activationfunctions101",
+                "UnderstandingBasicActivationFunctions"
+              ],
+              "prerequisite_concepts": [
+                "UnderstandingBasicActivationFunctions"
+              ]
+            }
+          ]
+        },
+        {
+          "lo_id": "LO_03_09",
+          "title": "SimpleNeuralNetBuild",
+          "short_title": "SimpleNeuralNetBuild",
+          "description": "Learning objective covering: Understanding Neural Network Basics, Designing Neural Network Architecture, Implementing Neural Network, Training and Testing Neural Network",
+          "granular_count": 4,
+          "estimated_time": 60,
+          "difficulty": 3,
+          "complexity": "basic",
+          "granular_objectives": [
+            {
+              "go_id": "GO_03_09_001",
+              "skill_name": "Understanding Neural Network Basics",
+              "description": "Students will recall the concept of understanding neural network basics and its role in simpleneuralnetbuild. This includes understanding simpleneuralnetbuild, IntroToAI.",
+              "cognitive_level": "Remember",
+              "mastery_threshold": 0.61,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "simpleneuralnetbuild",
+                "BasicMath",
+                "IntroToAI"
+              ],
+              "prerequisite_concepts": [
+                "BasicMath",
+                "IntroToAI"
+              ]
+            },
+            {
+              "go_id": "GO_03_09_002",
+              "skill_name": "Designing Neural Network Architecture",
+              "description": "Students will implement designing neural network architecture concepts and their applications. This includes understanding simpleneuralnetbuild, UnderstandingNeuralNetworkBasics.",
+              "cognitive_level": "Apply",
+              "mastery_threshold": 0.76,
+              "estimated_time_minutes": 15,
+              "skill_category": "creative",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "simpleneuralnetbuild",
+                "UnderstandingNeuralNetworkBasics"
+              ],
+              "prerequisite_concepts": [
+                "UnderstandingNeuralNetworkBasics"
+              ]
+            },
+            {
+              "go_id": "GO_03_09_003",
+              "skill_name": "Implementing Neural Network",
+              "description": "Students will implement implementing neural network procedures and techniques in practical scenarios. This includes understanding simpleneuralnetbuild, DesigningNeuralNetworkArchitecture.",
+              "cognitive_level": "Apply",
+              "mastery_threshold": 0.81,
+              "estimated_time_minutes": 15,
+              "skill_category": "procedural",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "simpleneuralnetbuild",
+                "DesigningNeuralNetworkArchitecture",
+                "BasicProgramming"
+              ],
+              "prerequisite_concepts": [
+                "DesigningNeuralNetworkArchitecture",
+                "BasicProgramming"
+              ]
+            },
+            {
+              "go_id": "GO_03_09_004",
+              "skill_name": "Training And Testing Neural Network",
+              "description": "Students will analyze training and testing neural network concepts to demonstrate understanding of simpleneuralnetbuild. This includes understanding simpleneuralnetbuild, ImplementingNeuralNetwork.",
+              "cognitive_level": "Analyze",
+              "mastery_threshold": 0.86,
+              "estimated_time_minutes": 15,
+              "skill_category": "conceptual",
+              "complexity": "basic",
+              "conceptual_tags": [
+                "simpleneuralnetbuild",
+                "ImplementingNeuralNetwork",
+                "DataPreprocessing"
+              ],
+              "prerequisite_concepts": [
+                "ImplementingNeuralNetwork",
+                "DataPreprocessing"
+              ]
+            }
+          ]
+        }
+      ],
+      "total_time_minutes": 180,
+      "total_granular_objectives": 12
+    }
+  },
+  "quick_lookup": {
+    "lo_by_id": {
+      "LO_01_01": {
+        "lo_id": "LO_01_01",
+        "title": "AI Basics",
+        "description": "Learning objective covering: Definition of AI, Types of AI, AI Applications, AI Limitations",
+        "estimated_time_minutes": 60,
+        "difficulty_level": 2,
+        "complexity": "basic",
+        "granular_objectives_count": 4,
+        "granular_objectives": [
+          {
+            "go_id": "GO_01_01_001",
+            "skill_name": "Definition Of Ai",
+            "description": "Students will recall the concept of definition of ai and its role in ai basics. This includes understanding ai_basics.",
+            "cognitive_level": "Remember",
+            "mastery_threshold": 0.6,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "ai_basics"
+            ],
+            "prerequisite_concepts": []
+          },
+          {
+            "go_id": "GO_01_01_002",
+            "skill_name": "Types Of Ai",
+            "description": "Students will explain the concept of types of ai and its role in ai basics. This includes understanding ai_basics, Definition of AI.",
+            "cognitive_level": "Understand",
+            "mastery_threshold": 0.65,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "ai_basics",
+              "Definition of AI"
+            ],
+            "prerequisite_concepts": [
+              "Definition of AI"
+            ]
+          },
+          {
+            "go_id": "GO_01_01_003",
+            "skill_name": "Ai Applications",
+            "description": "Students will implement ai applications procedures and techniques in practical scenarios. This includes understanding ai_basics, Definition of AI.",
+            "cognitive_level": "Apply",
+            "mastery_threshold": 0.75,
+            "estimated_time_minutes": 15,
+            "skill_category": "procedural",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "ai_basics",
+              "Definition of AI",
+              "Types of AI"
+            ],
+            "prerequisite_concepts": [
+              "Definition of AI",
+              "Types of AI"
+            ]
+          },
+          {
+            "go_id": "GO_01_01_004",
+            "skill_name": "Ai Limitations",
+            "description": "Students will analyze ai limitations concepts to demonstrate understanding of ai basics. This includes understanding ai_basics, Definition of AI.",
+            "cognitive_level": "Analyze",
+            "mastery_threshold": 0.85,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "ai_basics",
+              "Definition of AI",
+              "Types of AI"
+            ],
+            "prerequisite_concepts": [
+              "Definition of AI",
+              "Types of AI",
+              "AI Applications"
+            ]
+          }
+        ],
+        "prerequisites": [],
+        "conceptual_tags": [
+          "Types of AI",
+          "Definition of AI",
+          "ai_basics"
+        ],
+        "week_name": "Introduction to AI"
+      },
+      "LO_01_02": {
+        "lo_id": "LO_01_02",
+        "title": "AI Types Overview",
+        "description": "Learning objective covering: Understanding AI Categories, Identifying AI Technologies, Analyzing AI Applications",
+        "estimated_time_minutes": 45,
+        "difficulty_level": 3,
+        "complexity": "basic",
+        "granular_objectives_count": 3,
+        "granular_objectives": [
+          {
+            "go_id": "GO_01_02_001",
+            "skill_name": "Understanding Ai Categories",
+            "description": "Students will explain the concept of understanding ai categories and its role in ai types overview. This includes understanding ai_types_overview.",
+            "cognitive_level": "Understand",
+            "mastery_threshold": 0.65,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "ai_types_overview",
+              "Basic understanding of AI"
+            ],
+            "prerequisite_concepts": [
+              "Basic understanding of AI"
+            ]
+          },
+          {
+            "go_id": "GO_01_02_002",
+            "skill_name": "Identifying Ai Technologies",
+            "description": "Students will recall how to perform identifying ai technologies in various contexts. This includes understanding ai_types_overview, Understanding AI Categories.",
+            "cognitive_level": "Remember",
+            "mastery_threshold": 0.65,
+            "estimated_time_minutes": 15,
+            "skill_category": "analytical",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "ai_types_overview",
+              "Understanding AI Categories"
+            ],
+            "prerequisite_concepts": [
+              "Understanding AI Categories"
+            ]
+          },
+          {
+            "go_id": "GO_01_02_003",
+            "skill_name": "Analyzing Ai Applications",
+            "description": "Students will analyze the steps and methods involved in analyzing ai applications. This includes understanding ai_types_overview, Understanding AI Categories.",
+            "cognitive_level": "Analyze",
+            "mastery_threshold": 0.85,
+            "estimated_time_minutes": 15,
+            "skill_category": "procedural",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "ai_types_overview",
+              "Understanding AI Categories",
+              "Identifying AI Technologies"
+            ],
+            "prerequisite_concepts": [
+              "Understanding AI Categories",
+              "Identifying AI Technologies"
+            ]
+          }
+        ],
+        "prerequisites": [],
+        "conceptual_tags": [
+          "ai_types_overview",
+          "Understanding AI Categories",
+          "Basic understanding of AI",
+          "Identifying AI Technologies"
+        ],
+        "week_name": "Introduction to AI"
+      },
+      "LO_01_03": {
+        "lo_id": "LO_01_03",
+        "title": "AI vs ML Distinction",
+        "description": "Learning objective covering: Defining AI, Defining ML, Differentiating AI and ML, AI and ML Interrelation",
+        "estimated_time_minutes": 60,
+        "difficulty_level": 2,
+        "complexity": "basic",
+        "granular_objectives_count": 4,
+        "granular_objectives": [
+          {
+            "go_id": "GO_01_03_001",
+            "skill_name": "Defining Ai",
+            "description": "Students will recall the concept of defining ai and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction.",
+            "cognitive_level": "Remember",
+            "mastery_threshold": 0.6,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "ai_vs_ml_distinction"
+            ],
+            "prerequisite_concepts": []
+          },
+          {
+            "go_id": "GO_01_03_002",
+            "skill_name": "Defining Ml",
+            "description": "Students will recall the concept of defining ml and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction.",
+            "cognitive_level": "Remember",
+            "mastery_threshold": 0.6,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "ai_vs_ml_distinction"
+            ],
+            "prerequisite_concepts": []
+          },
+          {
+            "go_id": "GO_01_03_003",
+            "skill_name": "Differentiating Ai And Ml",
+            "description": "Students will explain the concept of differentiating ai and ml and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction, Defining AI.",
+            "cognitive_level": "Understand",
+            "mastery_threshold": 0.7,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "ai_vs_ml_distinction",
+              "Defining AI",
+              "Defining ML"
+            ],
+            "prerequisite_concepts": [
+              "Defining AI",
+              "Defining ML"
+            ]
+          },
+          {
+            "go_id": "GO_01_03_004",
+            "skill_name": "Ai And Ml Interrelation",
+            "description": "Students will explain the concept of ai and ml interrelation and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction, Defining AI.",
+            "cognitive_level": "Understand",
+            "mastery_threshold": 0.7,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "ai_vs_ml_distinction",
+              "Defining AI",
+              "Defining ML"
+            ],
+            "prerequisite_concepts": [
+              "Defining AI",
+              "Defining ML"
+            ]
+          }
+        ],
+        "prerequisites": [],
+        "conceptual_tags": [
+          "Defining AI",
+          "ai_vs_ml_distinction",
+          "Defining ML"
+        ],
+        "week_name": "Introduction to AI"
+      },
+      "LO_02_04": {
+        "lo_id": "LO_02_04",
+        "title": "ML Definition",
+        "description": "Learning objective covering: Understanding the term 'Machine Learning', Differentiating Machine Learning from AI, Identifying types of Machine Learning",
+        "estimated_time_minutes": 45,
+        "difficulty_level": 2,
+        "complexity": "basic",
+        "granular_objectives_count": 3,
+        "granular_objectives": [
+          {
+            "go_id": "GO_02_04_001",
+            "skill_name": "Understanding The Term 'Machine Learning'",
+            "description": "Students will recall the concept of understanding the term 'machine learning' and its role in ml definition. This includes understanding ml_definition.",
+            "cognitive_level": "Remember",
+            "mastery_threshold": 0.6,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "ml_definition"
+            ],
+            "prerequisite_concepts": []
+          },
+          {
+            "go_id": "GO_02_04_002",
+            "skill_name": "Differentiating Machine Learning From Ai",
+            "description": "Students will explain the concept of differentiating machine learning from ai and its role in ml definition. This includes understanding ml_definition, Understanding the term 'Machine Learning'.",
+            "cognitive_level": "Understand",
+            "mastery_threshold": 0.65,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "ml_definition",
+              "Understanding the term 'Machine Learning'"
+            ],
+            "prerequisite_concepts": [
+              "Understanding the term 'Machine Learning'"
+            ]
+          },
+          {
+            "go_id": "GO_02_04_003",
+            "skill_name": "Identifying Types Of Machine Learning",
+            "description": "Students will explain how to perform identifying types of machine learning in various contexts. This includes understanding ml_definition, Understanding the term 'Machine Learning'.",
+            "cognitive_level": "Understand",
+            "mastery_threshold": 0.7,
+            "estimated_time_minutes": 15,
+            "skill_category": "analytical",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "ml_definition",
+              "Understanding the term 'Machine Learning'"
+            ],
+            "prerequisite_concepts": [
+              "Understanding the term 'Machine Learning'"
+            ]
+          }
+        ],
+        "prerequisites": [],
+        "conceptual_tags": [
+          "ml_definition",
+          "Understanding the term 'Machine Learning'"
+        ],
+        "week_name": "Machine Learning Basics"
+      },
+      "LO_02_05": {
+        "lo_id": "LO_02_05",
+        "title": "Supervised vs Unsupervise",
+        "description": "Learning objective covering: Understanding Supervised Learning, Understanding Unsupervised Learning, Distinguishing Supervised vs Unsupervised",
+        "estimated_time_minutes": 45,
+        "difficulty_level": 2,
+        "complexity": "basic",
+        "granular_objectives_count": 3,
+        "granular_objectives": [
+          {
+            "go_id": "GO_02_05_001",
+            "skill_name": "Understanding Supervised Learning",
+            "description": "Students will explain the concept of understanding supervised learning and its role in supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Introduction to Machine Learning.",
+            "cognitive_level": "Understand",
+            "mastery_threshold": 0.65,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "supervised_vs_unsupervise",
+              "Introduction to Machine Learning"
+            ],
+            "prerequisite_concepts": [
+              "Introduction to Machine Learning"
+            ]
+          },
+          {
+            "go_id": "GO_02_05_002",
+            "skill_name": "Understanding Unsupervised Learning",
+            "description": "Students will explain the concept of understanding unsupervised learning and its role in supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Introduction to Machine Learning.",
+            "cognitive_level": "Understand",
+            "mastery_threshold": 0.65,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "supervised_vs_unsupervise",
+              "Introduction to Machine Learning"
+            ],
+            "prerequisite_concepts": [
+              "Introduction to Machine Learning"
+            ]
+          },
+          {
+            "go_id": "GO_02_05_003",
+            "skill_name": "Distinguishing Supervised Vs Unsupervised",
+            "description": "Students will analyze distinguishing supervised vs unsupervised concepts to demonstrate understanding of supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Understanding Supervised Learning.",
+            "cognitive_level": "Analyze",
+            "mastery_threshold": 0.81,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "supervised_vs_unsupervise",
+              "Understanding Supervised Learning",
+              "Understanding Unsupervised Learning"
+            ],
+            "prerequisite_concepts": [
+              "Understanding Supervised Learning",
+              "Understanding Unsupervised Learning"
+            ]
+          }
+        ],
+        "prerequisites": [],
+        "conceptual_tags": [
+          "supervised_vs_unsupervise",
+          "Understanding Unsupervised Learning",
+          "Understanding Supervised Learning",
+          "Introduction to Machine Learning"
+        ],
+        "week_name": "Machine Learning Basics"
+      },
+      "LO_02_06": {
+        "lo_id": "LO_02_06",
+        "title": "Common ML Algorithms",
+        "description": "Learning objective covering: Understanding of ML Algorithm Types, Knowledge of Specific ML Algorithms, Understanding ML Algorithm Applications",
+        "estimated_time_minutes": 45,
+        "difficulty_level": 3,
+        "complexity": "basic",
+        "granular_objectives_count": 3,
+        "granular_objectives": [
+          {
+            "go_id": "GO_02_06_001",
+            "skill_name": "Understanding Of Ml Algorithm Types",
+            "description": "Students will explain the concept of understanding of ml algorithm types and its role in common ml algorithms. This includes understanding common_ml_algorithms.",
+            "cognitive_level": "Understand",
+            "mastery_threshold": 0.65,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "common_ml_algorithms",
+              "Basic understanding of AI/ML"
+            ],
+            "prerequisite_concepts": [
+              "Basic understanding of AI/ML"
+            ]
+          },
+          {
+            "go_id": "GO_02_06_002",
+            "skill_name": "Knowledge Of Specific Ml Algorithms",
+            "description": "Students will recall the concept of knowledge of specific ml algorithms and its role in common ml algorithms. This includes understanding common_ml_algorithms, Understanding of ML Algorithm Types.",
+            "cognitive_level": "Remember",
+            "mastery_threshold": 0.66,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "common_ml_algorithms",
+              "Understanding of ML Algorithm Types"
+            ],
+            "prerequisite_concepts": [
+              "Understanding of ML Algorithm Types"
+            ]
+          },
+          {
+            "go_id": "GO_02_06_003",
+            "skill_name": "Understanding Ml Algorithm Applications",
+            "description": "Students will implement understanding ml algorithm applications procedures and techniques in practical scenarios. This includes understanding common_ml_algorithms, Knowledge of Specific ML Algorithms.",
+            "cognitive_level": "Apply",
+            "mastery_threshold": 0.81,
+            "estimated_time_minutes": 15,
+            "skill_category": "procedural",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "common_ml_algorithms",
+              "Knowledge of Specific ML Algorithms"
+            ],
+            "prerequisite_concepts": [
+              "Knowledge of Specific ML Algorithms"
+            ]
+          }
+        ],
+        "prerequisites": [],
+        "conceptual_tags": [
+          "common_ml_algorithms",
+          "Knowledge of Specific ML Algorithms",
+          "Understanding of ML Algorithm Types",
+          "Basic understanding of AI/ML"
+        ],
+        "week_name": "Machine Learning Basics"
+      },
+      "LO_03_07": {
+        "lo_id": "LO_03_07",
+        "title": "NeuralNetworkMechanics",
+        "description": "Learning objective covering: Understanding Neural Network Structure, Neuron Activation Functions, Neural Network Training, Neural Network Applications",
+        "estimated_time_minutes": 60,
+        "difficulty_level": 3,
+        "complexity": "basic",
+        "granular_objectives_count": 4,
+        "granular_objectives": [
+          {
+            "go_id": "GO_03_07_001",
+            "skill_name": "Understanding Neural Network Structure",
+            "description": "Students will explain the concept of understanding neural network structure and its role in neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+            "cognitive_level": "Understand",
+            "mastery_threshold": 0.66,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "neuralnetworkmechanics",
+              "BasicMathematics",
+              "IntroToAI"
+            ],
+            "prerequisite_concepts": [
+              "BasicMathematics",
+              "IntroToAI"
+            ]
+          },
+          {
+            "go_id": "GO_03_07_002",
+            "skill_name": "Neuron Activation Functions",
+            "description": "Students will explain the concept of neuron activation functions and its role in neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+            "cognitive_level": "Understand",
+            "mastery_threshold": 0.71,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "neuralnetworkmechanics",
+              "BasicMathematics",
+              "IntroToAI"
+            ],
+            "prerequisite_concepts": [
+              "BasicMathematics",
+              "IntroToAI"
+            ]
+          },
+          {
+            "go_id": "GO_03_07_003",
+            "skill_name": "Neural Network Training",
+            "description": "Students will implement neural network training concepts to demonstrate understanding of neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+            "cognitive_level": "Apply",
+            "mastery_threshold": 0.81,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "neuralnetworkmechanics",
+              "BasicMathematics",
+              "IntroToAI"
+            ],
+            "prerequisite_concepts": [
+              "BasicMathematics",
+              "IntroToAI",
+              "BasicStatistics"
+            ]
+          },
+          {
+            "go_id": "GO_03_07_004",
+            "skill_name": "Neural Network Applications",
+            "description": "Students will implement neural network applications procedures and techniques in practical scenarios. This includes understanding neuralnetworkmechanics, IntroToAI.",
+            "cognitive_level": "Apply",
+            "mastery_threshold": 0.76,
+            "estimated_time_minutes": 15,
+            "skill_category": "procedural",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "neuralnetworkmechanics",
+              "IntroToAI"
+            ],
+            "prerequisite_concepts": [
+              "IntroToAI"
+            ]
+          }
+        ],
+        "prerequisites": [],
+        "conceptual_tags": [
+          "neuralnetworkmechanics",
+          "IntroToAI",
+          "BasicMathematics"
+        ],
+        "week_name": "Neural Networks"
+      },
+      "LO_03_08": {
+        "lo_id": "LO_03_08",
+        "title": "ActivationFunctions101",
+        "description": "Learning objective covering: Understanding Basic Activation Functions, Activation Function Application, Analyzing Activation Function Impact, Advanced Activation Functions",
+        "estimated_time_minutes": 60,
+        "difficulty_level": 3,
+        "complexity": "basic",
+        "granular_objectives_count": 4,
+        "granular_objectives": [
+          {
+            "go_id": "GO_03_08_001",
+            "skill_name": "Understanding Basic Activation Functions",
+            "description": "Students will explain the concept of understanding basic activation functions and its role in activationfunctions101. This includes understanding activationfunctions101, MathematicsBasics.",
+            "cognitive_level": "Understand",
+            "mastery_threshold": 0.66,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "activationfunctions101",
+              "BasicNeuralNetworks",
+              "MathematicsBasics"
+            ],
+            "prerequisite_concepts": [
+              "BasicNeuralNetworks",
+              "MathematicsBasics"
+            ]
+          },
+          {
+            "go_id": "GO_03_08_002",
+            "skill_name": "Activation Function Application",
+            "description": "Students will implement activation function application procedures and techniques in practical scenarios. This includes understanding activationfunctions101, UnderstandingBasicActivationFunctions.",
+            "cognitive_level": "Apply",
+            "mastery_threshold": 0.76,
+            "estimated_time_minutes": 15,
+            "skill_category": "procedural",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "activationfunctions101",
+              "UnderstandingBasicActivationFunctions",
+              "NeuralNetworkModeling"
+            ],
+            "prerequisite_concepts": [
+              "UnderstandingBasicActivationFunctions",
+              "NeuralNetworkModeling"
+            ]
+          },
+          {
+            "go_id": "GO_03_08_003",
+            "skill_name": "Analyzing Activation Function Impact",
+            "description": "Students will analyze analyzing activation function impact concepts to demonstrate understanding of activationfunctions101. This includes understanding activationfunctions101, ActivationFunctionApplication.",
+            "cognitive_level": "Analyze",
+            "mastery_threshold": 0.86,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "activationfunctions101",
+              "ActivationFunctionApplication",
+              "PerformanceMetrics"
+            ],
+            "prerequisite_concepts": [
+              "ActivationFunctionApplication",
+              "PerformanceMetrics"
+            ]
+          },
+          {
+            "go_id": "GO_03_08_004",
+            "skill_name": "Advanced Activation Functions",
+            "description": "Students will explain the concept of advanced activation functions and its role in activationfunctions101. This includes understanding activationfunctions101, UnderstandingBasicActivationFunctions.",
+            "cognitive_level": "Understand",
+            "mastery_threshold": 0.71,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "activationfunctions101",
+              "UnderstandingBasicActivationFunctions"
+            ],
+            "prerequisite_concepts": [
+              "UnderstandingBasicActivationFunctions"
+            ]
+          }
+        ],
+        "prerequisites": [],
+        "conceptual_tags": [
+          "UnderstandingBasicActivationFunctions",
+          "ActivationFunctionApplication",
+          "activationfunctions101",
+          "PerformanceMetrics",
+          "NeuralNetworkModeling",
+          "BasicNeuralNetworks",
+          "MathematicsBasics"
+        ],
+        "week_name": "Neural Networks"
+      },
+      "LO_03_09": {
+        "lo_id": "LO_03_09",
+        "title": "SimpleNeuralNetBuild",
+        "description": "Learning objective covering: Understanding Neural Network Basics, Designing Neural Network Architecture, Implementing Neural Network, Training and Testing Neural Network",
+        "estimated_time_minutes": 60,
+        "difficulty_level": 3,
+        "complexity": "basic",
+        "granular_objectives_count": 4,
+        "granular_objectives": [
+          {
+            "go_id": "GO_03_09_001",
+            "skill_name": "Understanding Neural Network Basics",
+            "description": "Students will recall the concept of understanding neural network basics and its role in simpleneuralnetbuild. This includes understanding simpleneuralnetbuild, IntroToAI.",
+            "cognitive_level": "Remember",
+            "mastery_threshold": 0.61,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "simpleneuralnetbuild",
+              "BasicMath",
+              "IntroToAI"
+            ],
+            "prerequisite_concepts": [
+              "BasicMath",
+              "IntroToAI"
+            ]
+          },
+          {
+            "go_id": "GO_03_09_002",
+            "skill_name": "Designing Neural Network Architecture",
+            "description": "Students will implement designing neural network architecture concepts and their applications. This includes understanding simpleneuralnetbuild, UnderstandingNeuralNetworkBasics.",
+            "cognitive_level": "Apply",
+            "mastery_threshold": 0.76,
+            "estimated_time_minutes": 15,
+            "skill_category": "creative",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "simpleneuralnetbuild",
+              "UnderstandingNeuralNetworkBasics"
+            ],
+            "prerequisite_concepts": [
+              "UnderstandingNeuralNetworkBasics"
+            ]
+          },
+          {
+            "go_id": "GO_03_09_003",
+            "skill_name": "Implementing Neural Network",
+            "description": "Students will implement implementing neural network procedures and techniques in practical scenarios. This includes understanding simpleneuralnetbuild, DesigningNeuralNetworkArchitecture.",
+            "cognitive_level": "Apply",
+            "mastery_threshold": 0.81,
+            "estimated_time_minutes": 15,
+            "skill_category": "procedural",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "simpleneuralnetbuild",
+              "DesigningNeuralNetworkArchitecture",
+              "BasicProgramming"
+            ],
+            "prerequisite_concepts": [
+              "DesigningNeuralNetworkArchitecture",
+              "BasicProgramming"
+            ]
+          },
+          {
+            "go_id": "GO_03_09_004",
+            "skill_name": "Training And Testing Neural Network",
+            "description": "Students will analyze training and testing neural network concepts to demonstrate understanding of simpleneuralnetbuild. This includes understanding simpleneuralnetbuild, ImplementingNeuralNetwork.",
+            "cognitive_level": "Analyze",
+            "mastery_threshold": 0.86,
+            "estimated_time_minutes": 15,
+            "skill_category": "conceptual",
+            "complexity": "basic",
+            "conceptual_tags": [
+              "simpleneuralnetbuild",
+              "ImplementingNeuralNetwork",
+              "DataPreprocessing"
+            ],
+            "prerequisite_concepts": [
+              "ImplementingNeuralNetwork",
+              "DataPreprocessing"
+            ]
+          }
+        ],
+        "prerequisites": [],
+        "conceptual_tags": [
+          "BasicProgramming",
+          "ImplementingNeuralNetwork",
+          "UnderstandingNeuralNetworkBasics",
+          "IntroToAI",
+          "DataPreprocessing",
+          "BasicMath",
+          "DesigningNeuralNetworkArchitecture",
+          "simpleneuralnetbuild"
+        ],
+        "week_name": "Neural Networks"
+      }
+    },
+    "go_by_id": {
+      "GO_01_01_001": {
+        "go_id": "GO_01_01_001",
+        "parent_lo_id": "LO_01_01",
+        "skill_name": "Definition Of Ai",
+        "description": "Students will recall the concept of definition of ai and its role in ai basics. This includes understanding ai_basics.",
+        "cognitive_level": "Remember",
+        "complexity": "basic",
+        "mastery_threshold": 0.6,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "ai_basics"
+        ],
+        "prerequisite_concepts": [],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_01_01_002": {
+        "go_id": "GO_01_01_002",
+        "parent_lo_id": "LO_01_01",
+        "skill_name": "Types Of Ai",
+        "description": "Students will explain the concept of types of ai and its role in ai basics. This includes understanding ai_basics, Definition of AI.",
+        "cognitive_level": "Understand",
+        "complexity": "basic",
+        "mastery_threshold": 0.65,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "ai_basics",
+          "Definition of AI"
+        ],
+        "prerequisite_concepts": [
+          "Definition of AI"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_01_01_003": {
+        "go_id": "GO_01_01_003",
+        "parent_lo_id": "LO_01_01",
+        "skill_name": "Ai Applications",
+        "description": "Students will implement ai applications procedures and techniques in practical scenarios. This includes understanding ai_basics, Definition of AI.",
+        "cognitive_level": "Apply",
+        "complexity": "basic",
+        "mastery_threshold": 0.75,
+        "estimated_time_minutes": 15,
+        "skill_category": "procedural",
+        "conceptual_tags": [
+          "ai_basics",
+          "Definition of AI",
+          "Types of AI"
+        ],
+        "prerequisite_concepts": [
+          "Definition of AI",
+          "Types of AI"
+        ],
+        "assessment_types": [
+          "step_by_step",
+          "implementation"
+        ]
+      },
+      "GO_01_01_004": {
+        "go_id": "GO_01_01_004",
+        "parent_lo_id": "LO_01_01",
+        "skill_name": "Ai Limitations",
+        "description": "Students will analyze ai limitations concepts to demonstrate understanding of ai basics. This includes understanding ai_basics, Definition of AI.",
+        "cognitive_level": "Analyze",
+        "complexity": "basic",
+        "mastery_threshold": 0.85,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "ai_basics",
+          "Definition of AI",
+          "Types of AI"
+        ],
+        "prerequisite_concepts": [
+          "Definition of AI",
+          "Types of AI",
+          "AI Applications"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_01_02_001": {
+        "go_id": "GO_01_02_001",
+        "parent_lo_id": "LO_01_02",
+        "skill_name": "Understanding Ai Categories",
+        "description": "Students will explain the concept of understanding ai categories and its role in ai types overview. This includes understanding ai_types_overview.",
+        "cognitive_level": "Understand",
+        "complexity": "basic",
+        "mastery_threshold": 0.65,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "ai_types_overview",
+          "Basic understanding of AI"
+        ],
+        "prerequisite_concepts": [
+          "Basic understanding of AI"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_01_02_002": {
+        "go_id": "GO_01_02_002",
+        "parent_lo_id": "LO_01_02",
+        "skill_name": "Identifying Ai Technologies",
+        "description": "Students will recall how to perform identifying ai technologies in various contexts. This includes understanding ai_types_overview, Understanding AI Categories.",
+        "cognitive_level": "Remember",
+        "complexity": "basic",
+        "mastery_threshold": 0.65,
+        "estimated_time_minutes": 15,
+        "skill_category": "analytical",
+        "conceptual_tags": [
+          "ai_types_overview",
+          "Understanding AI Categories"
+        ],
+        "prerequisite_concepts": [
+          "Understanding AI Categories"
+        ],
+        "assessment_types": [
+          "case_study",
+          "comparison"
+        ]
+      },
+      "GO_01_02_003": {
+        "go_id": "GO_01_02_003",
+        "parent_lo_id": "LO_01_02",
+        "skill_name": "Analyzing Ai Applications",
+        "description": "Students will analyze the steps and methods involved in analyzing ai applications. This includes understanding ai_types_overview, Understanding AI Categories.",
+        "cognitive_level": "Analyze",
+        "complexity": "basic",
+        "mastery_threshold": 0.85,
+        "estimated_time_minutes": 15,
+        "skill_category": "procedural",
+        "conceptual_tags": [
+          "ai_types_overview",
+          "Understanding AI Categories",
+          "Identifying AI Technologies"
+        ],
+        "prerequisite_concepts": [
+          "Understanding AI Categories",
+          "Identifying AI Technologies"
+        ],
+        "assessment_types": [
+          "step_by_step",
+          "implementation"
+        ]
+      },
+      "GO_01_03_001": {
+        "go_id": "GO_01_03_001",
+        "parent_lo_id": "LO_01_03",
+        "skill_name": "Defining Ai",
+        "description": "Students will recall the concept of defining ai and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction.",
+        "cognitive_level": "Remember",
+        "complexity": "basic",
+        "mastery_threshold": 0.6,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "ai_vs_ml_distinction"
+        ],
+        "prerequisite_concepts": [],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_01_03_002": {
+        "go_id": "GO_01_03_002",
+        "parent_lo_id": "LO_01_03",
+        "skill_name": "Defining Ml",
+        "description": "Students will recall the concept of defining ml and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction.",
+        "cognitive_level": "Remember",
+        "complexity": "basic",
+        "mastery_threshold": 0.6,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "ai_vs_ml_distinction"
+        ],
+        "prerequisite_concepts": [],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_01_03_003": {
+        "go_id": "GO_01_03_003",
+        "parent_lo_id": "LO_01_03",
+        "skill_name": "Differentiating Ai And Ml",
+        "description": "Students will explain the concept of differentiating ai and ml and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction, Defining AI.",
+        "cognitive_level": "Understand",
+        "complexity": "basic",
+        "mastery_threshold": 0.7,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "ai_vs_ml_distinction",
+          "Defining AI",
+          "Defining ML"
+        ],
+        "prerequisite_concepts": [
+          "Defining AI",
+          "Defining ML"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_01_03_004": {
+        "go_id": "GO_01_03_004",
+        "parent_lo_id": "LO_01_03",
+        "skill_name": "Ai And Ml Interrelation",
+        "description": "Students will explain the concept of ai and ml interrelation and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction, Defining AI.",
+        "cognitive_level": "Understand",
+        "complexity": "basic",
+        "mastery_threshold": 0.7,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "ai_vs_ml_distinction",
+          "Defining AI",
+          "Defining ML"
+        ],
+        "prerequisite_concepts": [
+          "Defining AI",
+          "Defining ML"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_02_04_001": {
+        "go_id": "GO_02_04_001",
+        "parent_lo_id": "LO_02_04",
+        "skill_name": "Understanding The Term 'Machine Learning'",
+        "description": "Students will recall the concept of understanding the term 'machine learning' and its role in ml definition. This includes understanding ml_definition.",
+        "cognitive_level": "Remember",
+        "complexity": "basic",
+        "mastery_threshold": 0.6,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "ml_definition"
+        ],
+        "prerequisite_concepts": [],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_02_04_002": {
+        "go_id": "GO_02_04_002",
+        "parent_lo_id": "LO_02_04",
+        "skill_name": "Differentiating Machine Learning From Ai",
+        "description": "Students will explain the concept of differentiating machine learning from ai and its role in ml definition. This includes understanding ml_definition, Understanding the term 'Machine Learning'.",
+        "cognitive_level": "Understand",
+        "complexity": "basic",
+        "mastery_threshold": 0.65,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "ml_definition",
+          "Understanding the term 'Machine Learning'"
+        ],
+        "prerequisite_concepts": [
+          "Understanding the term 'Machine Learning'"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_02_04_003": {
+        "go_id": "GO_02_04_003",
+        "parent_lo_id": "LO_02_04",
+        "skill_name": "Identifying Types Of Machine Learning",
+        "description": "Students will explain how to perform identifying types of machine learning in various contexts. This includes understanding ml_definition, Understanding the term 'Machine Learning'.",
+        "cognitive_level": "Understand",
+        "complexity": "basic",
+        "mastery_threshold": 0.7,
+        "estimated_time_minutes": 15,
+        "skill_category": "analytical",
+        "conceptual_tags": [
+          "ml_definition",
+          "Understanding the term 'Machine Learning'"
+        ],
+        "prerequisite_concepts": [
+          "Understanding the term 'Machine Learning'"
+        ],
+        "assessment_types": [
+          "case_study",
+          "comparison"
+        ]
+      },
+      "GO_02_05_001": {
+        "go_id": "GO_02_05_001",
+        "parent_lo_id": "LO_02_05",
+        "skill_name": "Understanding Supervised Learning",
+        "description": "Students will explain the concept of understanding supervised learning and its role in supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Introduction to Machine Learning.",
+        "cognitive_level": "Understand",
+        "complexity": "basic",
+        "mastery_threshold": 0.65,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "supervised_vs_unsupervise",
+          "Introduction to Machine Learning"
+        ],
+        "prerequisite_concepts": [
+          "Introduction to Machine Learning"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_02_05_002": {
+        "go_id": "GO_02_05_002",
+        "parent_lo_id": "LO_02_05",
+        "skill_name": "Understanding Unsupervised Learning",
+        "description": "Students will explain the concept of understanding unsupervised learning and its role in supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Introduction to Machine Learning.",
+        "cognitive_level": "Understand",
+        "complexity": "basic",
+        "mastery_threshold": 0.65,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "supervised_vs_unsupervise",
+          "Introduction to Machine Learning"
+        ],
+        "prerequisite_concepts": [
+          "Introduction to Machine Learning"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_02_05_003": {
+        "go_id": "GO_02_05_003",
+        "parent_lo_id": "LO_02_05",
+        "skill_name": "Distinguishing Supervised Vs Unsupervised",
+        "description": "Students will analyze distinguishing supervised vs unsupervised concepts to demonstrate understanding of supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Understanding Supervised Learning.",
+        "cognitive_level": "Analyze",
+        "complexity": "basic",
+        "mastery_threshold": 0.81,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "supervised_vs_unsupervise",
+          "Understanding Supervised Learning",
+          "Understanding Unsupervised Learning"
+        ],
+        "prerequisite_concepts": [
+          "Understanding Supervised Learning",
+          "Understanding Unsupervised Learning"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_02_06_001": {
+        "go_id": "GO_02_06_001",
+        "parent_lo_id": "LO_02_06",
+        "skill_name": "Understanding Of Ml Algorithm Types",
+        "description": "Students will explain the concept of understanding of ml algorithm types and its role in common ml algorithms. This includes understanding common_ml_algorithms.",
+        "cognitive_level": "Understand",
+        "complexity": "basic",
+        "mastery_threshold": 0.65,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "common_ml_algorithms",
+          "Basic understanding of AI/ML"
+        ],
+        "prerequisite_concepts": [
+          "Basic understanding of AI/ML"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_02_06_002": {
+        "go_id": "GO_02_06_002",
+        "parent_lo_id": "LO_02_06",
+        "skill_name": "Knowledge Of Specific Ml Algorithms",
+        "description": "Students will recall the concept of knowledge of specific ml algorithms and its role in common ml algorithms. This includes understanding common_ml_algorithms, Understanding of ML Algorithm Types.",
+        "cognitive_level": "Remember",
+        "complexity": "basic",
+        "mastery_threshold": 0.66,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "common_ml_algorithms",
+          "Understanding of ML Algorithm Types"
+        ],
+        "prerequisite_concepts": [
+          "Understanding of ML Algorithm Types"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_02_06_003": {
+        "go_id": "GO_02_06_003",
+        "parent_lo_id": "LO_02_06",
+        "skill_name": "Understanding Ml Algorithm Applications",
+        "description": "Students will implement understanding ml algorithm applications procedures and techniques in practical scenarios. This includes understanding common_ml_algorithms, Knowledge of Specific ML Algorithms.",
+        "cognitive_level": "Apply",
+        "complexity": "basic",
+        "mastery_threshold": 0.81,
+        "estimated_time_minutes": 15,
+        "skill_category": "procedural",
+        "conceptual_tags": [
+          "common_ml_algorithms",
+          "Knowledge of Specific ML Algorithms"
+        ],
+        "prerequisite_concepts": [
+          "Knowledge of Specific ML Algorithms"
+        ],
+        "assessment_types": [
+          "step_by_step",
+          "implementation"
+        ]
+      },
+      "GO_03_07_001": {
+        "go_id": "GO_03_07_001",
+        "parent_lo_id": "LO_03_07",
+        "skill_name": "Understanding Neural Network Structure",
+        "description": "Students will explain the concept of understanding neural network structure and its role in neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+        "cognitive_level": "Understand",
+        "complexity": "basic",
+        "mastery_threshold": 0.66,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "neuralnetworkmechanics",
+          "BasicMathematics",
+          "IntroToAI"
+        ],
+        "prerequisite_concepts": [
+          "BasicMathematics",
+          "IntroToAI"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_03_07_002": {
+        "go_id": "GO_03_07_002",
+        "parent_lo_id": "LO_03_07",
+        "skill_name": "Neuron Activation Functions",
+        "description": "Students will explain the concept of neuron activation functions and its role in neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+        "cognitive_level": "Understand",
+        "complexity": "basic",
+        "mastery_threshold": 0.71,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "neuralnetworkmechanics",
+          "BasicMathematics",
+          "IntroToAI"
+        ],
+        "prerequisite_concepts": [
+          "BasicMathematics",
+          "IntroToAI"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_03_07_003": {
+        "go_id": "GO_03_07_003",
+        "parent_lo_id": "LO_03_07",
+        "skill_name": "Neural Network Training",
+        "description": "Students will implement neural network training concepts to demonstrate understanding of neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+        "cognitive_level": "Apply",
+        "complexity": "basic",
+        "mastery_threshold": 0.81,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "neuralnetworkmechanics",
+          "BasicMathematics",
+          "IntroToAI"
+        ],
+        "prerequisite_concepts": [
+          "BasicMathematics",
+          "IntroToAI",
+          "BasicStatistics"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_03_07_004": {
+        "go_id": "GO_03_07_004",
+        "parent_lo_id": "LO_03_07",
+        "skill_name": "Neural Network Applications",
+        "description": "Students will implement neural network applications procedures and techniques in practical scenarios. This includes understanding neuralnetworkmechanics, IntroToAI.",
+        "cognitive_level": "Apply",
+        "complexity": "basic",
+        "mastery_threshold": 0.76,
+        "estimated_time_minutes": 15,
+        "skill_category": "procedural",
+        "conceptual_tags": [
+          "neuralnetworkmechanics",
+          "IntroToAI"
+        ],
+        "prerequisite_concepts": [
+          "IntroToAI"
+        ],
+        "assessment_types": [
+          "step_by_step",
+          "implementation"
+        ]
+      },
+      "GO_03_08_001": {
+        "go_id": "GO_03_08_001",
+        "parent_lo_id": "LO_03_08",
+        "skill_name": "Understanding Basic Activation Functions",
+        "description": "Students will explain the concept of understanding basic activation functions and its role in activationfunctions101. This includes understanding activationfunctions101, MathematicsBasics.",
+        "cognitive_level": "Understand",
+        "complexity": "basic",
+        "mastery_threshold": 0.66,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "activationfunctions101",
+          "BasicNeuralNetworks",
+          "MathematicsBasics"
+        ],
+        "prerequisite_concepts": [
+          "BasicNeuralNetworks",
+          "MathematicsBasics"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_03_08_002": {
+        "go_id": "GO_03_08_002",
+        "parent_lo_id": "LO_03_08",
+        "skill_name": "Activation Function Application",
+        "description": "Students will implement activation function application procedures and techniques in practical scenarios. This includes understanding activationfunctions101, UnderstandingBasicActivationFunctions.",
+        "cognitive_level": "Apply",
+        "complexity": "basic",
+        "mastery_threshold": 0.76,
+        "estimated_time_minutes": 15,
+        "skill_category": "procedural",
+        "conceptual_tags": [
+          "activationfunctions101",
+          "UnderstandingBasicActivationFunctions",
+          "NeuralNetworkModeling"
+        ],
+        "prerequisite_concepts": [
+          "UnderstandingBasicActivationFunctions",
+          "NeuralNetworkModeling"
+        ],
+        "assessment_types": [
+          "step_by_step",
+          "implementation"
+        ]
+      },
+      "GO_03_08_003": {
+        "go_id": "GO_03_08_003",
+        "parent_lo_id": "LO_03_08",
+        "skill_name": "Analyzing Activation Function Impact",
+        "description": "Students will analyze analyzing activation function impact concepts to demonstrate understanding of activationfunctions101. This includes understanding activationfunctions101, ActivationFunctionApplication.",
+        "cognitive_level": "Analyze",
+        "complexity": "basic",
+        "mastery_threshold": 0.86,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "activationfunctions101",
+          "ActivationFunctionApplication",
+          "PerformanceMetrics"
+        ],
+        "prerequisite_concepts": [
+          "ActivationFunctionApplication",
+          "PerformanceMetrics"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_03_08_004": {
+        "go_id": "GO_03_08_004",
+        "parent_lo_id": "LO_03_08",
+        "skill_name": "Advanced Activation Functions",
+        "description": "Students will explain the concept of advanced activation functions and its role in activationfunctions101. This includes understanding activationfunctions101, UnderstandingBasicActivationFunctions.",
+        "cognitive_level": "Understand",
+        "complexity": "basic",
+        "mastery_threshold": 0.71,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "activationfunctions101",
+          "UnderstandingBasicActivationFunctions"
+        ],
+        "prerequisite_concepts": [
+          "UnderstandingBasicActivationFunctions"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_03_09_001": {
+        "go_id": "GO_03_09_001",
+        "parent_lo_id": "LO_03_09",
+        "skill_name": "Understanding Neural Network Basics",
+        "description": "Students will recall the concept of understanding neural network basics and its role in simpleneuralnetbuild. This includes understanding simpleneuralnetbuild, IntroToAI.",
+        "cognitive_level": "Remember",
+        "complexity": "basic",
+        "mastery_threshold": 0.61,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "simpleneuralnetbuild",
+          "BasicMath",
+          "IntroToAI"
+        ],
+        "prerequisite_concepts": [
+          "BasicMath",
+          "IntroToAI"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      },
+      "GO_03_09_002": {
+        "go_id": "GO_03_09_002",
+        "parent_lo_id": "LO_03_09",
+        "skill_name": "Designing Neural Network Architecture",
+        "description": "Students will implement designing neural network architecture concepts and their applications. This includes understanding simpleneuralnetbuild, UnderstandingNeuralNetworkBasics.",
+        "cognitive_level": "Apply",
+        "complexity": "basic",
+        "mastery_threshold": 0.76,
+        "estimated_time_minutes": 15,
+        "skill_category": "creative",
+        "conceptual_tags": [
+          "simpleneuralnetbuild",
+          "UnderstandingNeuralNetworkBasics"
+        ],
+        "prerequisite_concepts": [
+          "UnderstandingNeuralNetworkBasics"
+        ],
+        "assessment_types": [
+          "project",
+          "design"
+        ]
+      },
+      "GO_03_09_003": {
+        "go_id": "GO_03_09_003",
+        "parent_lo_id": "LO_03_09",
+        "skill_name": "Implementing Neural Network",
+        "description": "Students will implement implementing neural network procedures and techniques in practical scenarios. This includes understanding simpleneuralnetbuild, DesigningNeuralNetworkArchitecture.",
+        "cognitive_level": "Apply",
+        "complexity": "basic",
+        "mastery_threshold": 0.81,
+        "estimated_time_minutes": 15,
+        "skill_category": "procedural",
+        "conceptual_tags": [
+          "simpleneuralnetbuild",
+          "DesigningNeuralNetworkArchitecture",
+          "BasicProgramming"
+        ],
+        "prerequisite_concepts": [
+          "DesigningNeuralNetworkArchitecture",
+          "BasicProgramming"
+        ],
+        "assessment_types": [
+          "step_by_step",
+          "implementation"
+        ]
+      },
+      "GO_03_09_004": {
+        "go_id": "GO_03_09_004",
+        "parent_lo_id": "LO_03_09",
+        "skill_name": "Training And Testing Neural Network",
+        "description": "Students will analyze training and testing neural network concepts to demonstrate understanding of simpleneuralnetbuild. This includes understanding simpleneuralnetbuild, ImplementingNeuralNetwork.",
+        "cognitive_level": "Analyze",
+        "complexity": "basic",
+        "mastery_threshold": 0.86,
+        "estimated_time_minutes": 15,
+        "skill_category": "conceptual",
+        "conceptual_tags": [
+          "simpleneuralnetbuild",
+          "ImplementingNeuralNetwork",
+          "DataPreprocessing"
+        ],
+        "prerequisite_concepts": [
+          "ImplementingNeuralNetwork",
+          "DataPreprocessing"
+        ],
+        "assessment_types": [
+          "multiple_choice",
+          "short_answer"
+        ]
+      }
+    },
+    "week_by_lo_id": {
+      "LO_01_01": {
+        "week_number": 1,
+        "week_name": "Introduction to AI"
+      },
+      "LO_01_02": {
+        "week_number": 1,
+        "week_name": "Introduction to AI"
+      },
+      "LO_01_03": {
+        "week_number": 1,
+        "week_name": "Introduction to AI"
+      },
+      "LO_02_04": {
+        "week_number": 2,
+        "week_name": "Machine Learning Basics"
+      },
+      "LO_02_05": {
+        "week_number": 2,
+        "week_name": "Machine Learning Basics"
+      },
+      "LO_02_06": {
+        "week_number": 2,
+        "week_name": "Machine Learning Basics"
+      },
+      "LO_03_07": {
+        "week_number": 3,
+        "week_name": "Neural Networks"
+      },
+      "LO_03_08": {
+        "week_number": 3,
+        "week_name": "Neural Networks"
+      },
+      "LO_03_09": {
+        "week_number": 3,
+        "week_name": "Neural Networks"
+      }
+    }
+  }
+}
