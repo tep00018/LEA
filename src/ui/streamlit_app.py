@@ -166,14 +166,11 @@ def stop_memory_worker():
 # Configuration
 REDIS_URL = os.getenv("REDIS_URL")
 AVAILABLE_COURSES = [
-    "CMP511", "PSY555",
+    "DEMO101",
 ]
 
 # AVAILABLE_COURSES = [
-#     "CMP105", "CMP201", "CMP202", "CMP203", "CMP301", "CMP302", "CMP304", "CMP316",
-#     "CMP405", "CMP424", "CMP501", "CMP502", "CMP504", "CMP505", "CMP511", "CMP515",
-#     "CMP516", "CMP517", "CMP522", "CMP523", "DES502", "GRS501", "MAT101", "MAT102",
-#     "MAT201", "MAT202", "MAT401", "MAT501", "PSY555"
+#     "DEMO101"
 # ]
 
 # Enhanced CSS Styling
@@ -526,9 +523,9 @@ def get_kc_loader():
     try:
         auth_service = get_auth_service()
         if auth_service:
-            # Use CMP511 as default for system initialization
-            kc_loader = KCModelLoader(auth_service.redis_client, module="CMP511")
-            print("DEBUG: KC Model Loader initialized with default module CMP511 (cached)")
+            # Use DEMO101 as default for system initialization
+            kc_loader = KCModelLoader(auth_service.redis_client, module="DEMO101")
+            print("DEBUG: KC Model Loader initialized with default module DEMO101 (cached)")
             return kc_loader
         return None
     except Exception as e:
@@ -913,7 +910,7 @@ def render_login_page():
                 new_password = st.text_input("Password", type="password")
                 confirm_password = st.text_input("Confirm Password", type="password")
                 
-                selected_courses = st.multiselect("Select Courses:", AVAILABLE_COURSES, default=["CMP511"])
+                selected_courses = st.multiselect("Select Courses:", AVAILABLE_COURSES, default=["DEMO101"])
                 
                 if st.form_submit_button("Create Account", use_container_width=True, type="primary"):
                     if all([new_username, full_name, new_password, confirm_password]):
@@ -1732,8 +1729,8 @@ def load_user_data_after_login(username: str):
 
 def get_current_kc_loader():
     """Get KCModelLoader for currently selected course (dynamic)"""
-    # Get the current course from session state, default to CMP511
-    current_course = st.session_state.get("selected_course", "CMP511")
+    # Get the current course from session state, default to DEMO101
+    current_course = st.session_state.get("selected_course", "DEMO101")
     return get_kc_loader_for_module(current_course)
 
 def load_course_weeks():
@@ -2144,7 +2141,7 @@ class RAGFallbackOrchestrator:
         try:
             username = state.get("username", "Student")
             user_query = state.get("user_query", "")
-            course = state.get("selected_course", "CMP511")
+            course = state.get("selected_course", "DEMO101")
             week = state.get("selected_week", 1)
             
             print(f"DEBUG: RAG Fallback processing query: '{user_query}' for {course}")
@@ -2676,7 +2673,7 @@ def send_chat_message_with_orchestrator(user_input: str):
             interaction_type="chat",
             content={
                 "message": user_input,
-                "course": st.session_state.get("selected_course", "CMP511"),
+                "course": st.session_state.get("selected_course", "DEMO101"),
                 "week": st.session_state.get("selected_week", 1),
                 "timestamp": time.time()
             }
@@ -2697,7 +2694,7 @@ def send_chat_message_with_orchestrator(user_input: str):
         state = {
             "user_query": user_input,
             "username": username,
-            "selected_course": st.session_state.get("selected_course", "CMP511"),
+            "selected_course": st.session_state.get("selected_course", "DEMO101"),
             "selected_week": st.session_state.get("selected_week", 1),
             "current_mode": "chat",
             "conversation_history": conversation_history,
@@ -2732,7 +2729,7 @@ def send_chat_message_with_orchestrator(user_input: str):
                 content={
                     "user_message": user_input,
                     "assistant_response": response,
-                    "course": st.session_state.get("selected_course", "CMP511"),
+                    "course": st.session_state.get("selected_course", "DEMO101"),
                     "week": st.session_state.get("selected_week", 1),
                     "cognitive_state": result.get("cognitive_state", {}),
                     "timestamp": time.time()
@@ -2758,7 +2755,7 @@ def send_chat_message_with_orchestrator(user_input: str):
 def get_enhanced_chat_fallback(user_input: str) -> str:
     """Enhanced chat fallback with direct RAG access"""
     try:
-        course = st.session_state.get("selected_course", "CMP511")
+        course = st.session_state.get("selected_course", "DEMO101")
         week = st.session_state.get("selected_week", 1)
         
         # Try to get course content directly
@@ -4743,7 +4740,7 @@ def debug_mastery_data():
             if mastery_tracker:
                 try:
                     username = st.session_state.get("username", "user")
-                    course = st.session_state.get("selected_course", "CMP511")
+                    course = st.session_state.get("selected_course", "DEMO101")
                     
                     mastery_data = mastery_tracker.get_mastery_summary(username, course)
                     
@@ -5151,7 +5148,7 @@ def simulate_motivation_state_change(target_state: str):
 def debug_progress_integration():
     """Debug function to test progress integration"""
     username = st.session_state.get("username", "test_user")
-    course = st.session_state.get("selected_course", "CMP511")
+    course = st.session_state.get("selected_course", "DEMO101")
     
     st.sidebar.markdown("---")
     st.sidebar.markdown("### 🔧 Debug Tools")
