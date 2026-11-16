@@ -102,7 +102,7 @@ Conference paper: *Learning Engagement Assistant (LEA): A Multi-Agent AI Framewo
 Adaptive and Personalized Learning with Simulated Student Agents*, ICAART 2026,
 DOI [10.5220/0014418900004052](https://doi.org/10.5220/0014418900004052).
 
-Journal article (under review): *Learning Engagement Assistant (LEA): Cross-Course Scalability and Classroom Evaluation of an Agentic AI Tutoring System*, SN Computer Science. (Update with volume, pages and DOI once published.)
+Journal article (under review): *Learning Engagement Assistant (LEA): Cross-Course Scalability and Classroom Evaluation of an Agentic AI Tutoring System*, SN Computer Science. (To be updated with volume, pages and DOI once published.)
 
 Dissertation:
 
