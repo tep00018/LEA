@@ -52,13 +52,15 @@ git clone https://github.com/tep00018/LEA.git
 cd LEA
 
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate                   # macOS/Linux
+venv\Scripts\activate                      # Windows (PowerShell)
 
 pip install -r requirements.txt            # run the application
 pip install -r requirements-dev.txt        # also needed to run the tests
 pip install -r requirements-extras.txt     # for the data pipeline and the simulation
 
-cp .env.example .env
+cp .env.example .env                       # macOS/Linux
+Copy-Item .env.example .env                # Windows (PowerShell)
 # Edit .env with your credentials
 ```
 
@@ -92,7 +94,7 @@ Developed as part of a dissertation on adaptive intelligent tutoring systems (se
 
 ## License
 
-Apache 2.0 License - see LICENSE file
+Apache 2.0 License - see [LICENSE.txt](LICENSE.txt)
 
 ## Citation
 
@@ -100,8 +102,7 @@ Conference paper: *Learning Engagement Assistant (LEA): A Multi-Agent AI Framewo
 Adaptive and Personalized Learning with Simulated Student Agents*, ICAART 2026,
 DOI [10.5220/0014418900004052](https://doi.org/10.5220/0014418900004052).
 
-Journal article (SN Computer Science): *[PAPER TITLE - TO BE ADDED]*, SN Computer Science,
-[YEAR, VOLUME, PAGES - TO BE ADDED], DOI [TO BE ADDED].
+Journal article (under review): *Learning Engagement Assistant (LEA): Cross-Course Scalability and Classroom Evaluation of an Agentic AI Tutoring System*, SN Computer Science. (Update with volume, pages and DOI once published.)
 
 Dissertation:
 
