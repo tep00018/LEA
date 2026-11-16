@@ -39,8 +39,15 @@ venv\Scripts\activate
 
 ```bash
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r requirements.txt            # run the application
+pip install -r requirements-dev.txt        # also needed to run the tests
+pip install -r requirements-extras.txt     # for the data pipeline and the simulation
 ```
+
+`requirements.txt` holds only what the application imports, with lower bounds, so it installs on
+Windows, macOS and Linux. `requirements-lock.txt` is a snapshot (exact versions) of the original
+development environment; it may not install on every platform and is not needed to run the demo.
+To check an install, run `python -m pytest` (needs `requirements-dev.txt`).
 
 ### 4. Install Redis
 

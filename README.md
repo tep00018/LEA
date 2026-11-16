@@ -54,11 +54,18 @@ cd LEA
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
-pip install -r requirements.txt
+pip install -r requirements.txt            # run the application
+pip install -r requirements-dev.txt        # also needed to run the tests
+pip install -r requirements-extras.txt     # for the data pipeline and the simulation
 
 cp .env.example .env
 # Edit .env with your credentials
 ```
+
+`requirements-lock.txt` is a snapshot of the original development environment. It may not install
+on every platform and is not needed to run the demo.
+
+To run the tests: `python -m pytest`.
 
 ### Running LEA
 

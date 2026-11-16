@@ -1,0 +1,22 @@
+# LEA - Learning Engagement Assistant
+# Extras: used only by the data pipeline (data_foundation/) and the simulation (simulation/).
+# Install after requirements.txt, which already provides openai, chromadb, pandas, numpy, nltk and python-dotenv.
+#
+#   pip install -r requirements-extras.txt
+
+# data_foundation/
+openpyxl>=3.1.0              # pandas read_excel / to_excel for the KC model workbooks
+pyyaml>=6.0                  # kc_model_generator.py
+networkx>=3.0                # kc_model_generator.py
+markitdown>=0.0.1            # rag_library_creation.py (document conversion)
+pdfminer.six>=20221105       # rag_library_creation.py (PDF text)
+openai-whisper>=20231117     # rag_library_creation.py: `import whisper`; also needs the ffmpeg program installed
+ragas>=0.2.0,<0.3            # score_ragas.py: written for 0.2.x
+datasets>=2.14.0             # score_ragas.py
+# ragas 0.2.x does not import with the langchain 1.x packages, so these stay on the 0.3 line (as in
+# the original environment):
+langchain-openai>=0.2.0,<0.4 # score_ragas.py
+langchain-community>=0.3.0,<0.4
+
+# simulation/
+mesa>=2.1.0,<3.0             # uses mesa.time.RandomActivation, which Mesa 3.0 removed
