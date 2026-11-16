@@ -1,0 +1,26 @@
+{
+  "Week1-LectureA-Introduction.txt": {
+    "file_name": "Week1-LectureA-Introduction.txt",
+    "extension": ".txt",
+    "title": "AI Fundamentals",
+    "summary": "The lecture introduces Artificial Intelligence, explaining its ability to perform tasks that require human intelligence, such as perception and decision-making. It differentiates between Narrow AI, which specializes in specific tasks, General AI, which is theoretical and matches human intelligence across all areas, and Superintelligent AI, which could surpass human intelligence. AI is presented as the broader concept, with Machine Learning being a method to achieve intelligent behavior through data-driven learning.",
+    "num_pages": "N/A",
+    "signature": "73489fa66fae99c8434831b0dbd06fc4",
+    "doc_path": "data/org_docs/DEMO101/Week1-LectureA-Introduction.txt",
+    "markdown_path": "data/md_docs/DEMO101/Week1-LectureA-Introduction.md",
+    "page_map": [],
+    "doc_type": "Lecture"
+  },
+  "Week2-LectureA-ML-Basics.txt": {
+    "file_name": "Week2-LectureA-ML-Basics.txt",
+    "extension": ".txt",
+    "title": "Machine Learning Basics",
+    "summary": "Machine Learning is an approach for building analytical models by learning from data. It is categorized into supervised, unsupervised, and reinforcement learning, each serving different purposes like classification, pattern recognition, and decision-making. Common algorithms include linear and logistic regression, decision trees, K-means clustering, and neural networks.",
+    "num_pages": "N/A",
+    "signature": "8dc6a19b53a62f91170c521c80cfc9a0",
+    "doc_path": "data/org_docs/DEMO101/Week2-LectureA-ML-Basics.txt",
+    "markdown_path": "data/md_docs/DEMO101/Week2-LectureA-ML-Basics.md",
+    "page_map": [],
+    "doc_type": "Lecture"
+  }
+}

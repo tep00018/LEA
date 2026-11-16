@@ -1,0 +1,3713 @@
+{
+  "metadata": {
+    "course_code": "DEMO101",
+    "course_name": "Introduction to AI/ML",
+    "template_version": "2.1",
+    "generated_timestamp": "2025-10-03T16:04:29.534513",
+    "total_learning_objectives": 9,
+    "total_granular_objectives": 32,
+    "difficulty_range": "2-3",
+    "estimated_total_time_hours": 8.0,
+    "ai_model_requirements": {
+      "minimum_context_window": 4000,
+      "recommended_model_size": "medium",
+      "domain_specialization": "demo101_education",
+      "adaptive_capabilities_required": true
+    }
+  },
+  "course_structure": {
+    "prerequisite_graph": {
+      "AI Basics": [],
+      "AI Types Overview": [],
+      "AI vs ML Distinction": [],
+      "ML Definition": [],
+      "Supervised vs Unsupervise": [],
+      "Common ML Algorithms": [],
+      "NeuralNetworkMechanics": [],
+      "ActivationFunctions101": [],
+      "SimpleNeuralNetBuild": []
+    },
+    "learning_pathways": [
+      {
+        "pathway_id": "pathway_foundations",
+        "name": "Foundations",
+        "description": "Learning pathway focusing on foundations",
+        "objectives": [
+          "AI Basics",
+          "AI Types Overview",
+          "AI vs ML Distinction",
+          "ML Definition",
+          "Supervised vs Unsupervise",
+          "Common ML Algorithms"
+        ],
+        "weeks": [
+          1,
+          2
+        ],
+        "estimated_completion_time": 300,
+        "difficulty_progression": [
+          2,
+          3,
+          2,
+          2,
+          2,
+          3
+        ],
+        "adaptive_rules": {
+          "prerequisite_mastery_threshold": 0.8,
+          "advancement_criteria": "mastery_based",
+          "remediation_triggers": [
+            "low_performance",
+            "time_exceeded"
+          ],
+          "acceleration_triggers": [
+            "high_mastery",
+            "rapid_completion"
+          ]
+        }
+      },
+      {
+        "pathway_id": "pathway_advanced_concepts",
+        "name": "Advanced Concepts",
+        "description": "Learning pathway focusing on advanced concepts",
+        "objectives": [
+          "NeuralNetworkMechanics",
+          "ActivationFunctions101",
+          "SimpleNeuralNetBuild"
+        ],
+        "weeks": [
+          3
+        ],
+        "estimated_completion_time": 180,
+        "difficulty_progression": [
+          3,
+          3,
+          3
+        ],
+        "adaptive_rules": {
+          "prerequisite_mastery_threshold": 0.8,
+          "advancement_criteria": "mastery_based",
+          "remediation_triggers": [
+            "low_performance",
+            "time_exceeded"
+          ],
+          "acceleration_triggers": [
+            "high_mastery",
+            "rapid_completion"
+          ]
+        }
+      }
+    ],
+    "week_progression": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
+  },
+  "learning_objectives": [
+    {
+      "lo_id": "LO_01_01",
+      "week": 1,
+      "week_name": "Introduction to AI",
+      "title": "AI Basics",
+      "description": "Learning objective covering: Definition of AI, Types of AI, AI Applications, AI Limitations",
+      "cognitive_level": "Understand",
+      "difficulty_level": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 60,
+      "prerequisite_weeks": [],
+      "granular_skills_count": 4,
+      "granular_skill_ids": [
+        "GO_01_01_001",
+        "GO_01_01_002",
+        "GO_01_01_003",
+        "GO_01_01_004"
+      ],
+      "conceptual_tags": [
+        "Types of AI",
+        "Definition of AI",
+        "ai_basics"
+      ],
+      "ai_context": {
+        "domain_keywords": [],
+        "teaching_approach": "guided_discovery",
+        "assessment_weight": 0.6,
+        "prerequisite_enforcement": "flexible"
+      }
+    },
+    {
+      "lo_id": "LO_01_02",
+      "week": 1,
+      "week_name": "Introduction to AI",
+      "title": "AI Types Overview",
+      "description": "Learning objective covering: Understanding AI Categories, Identifying AI Technologies, Analyzing AI Applications",
+      "cognitive_level": "Understand",
+      "difficulty_level": 3,
+      "complexity": "basic",
+      "estimated_time_minutes": 45,
+      "prerequisite_weeks": [],
+      "granular_skills_count": 3,
+      "granular_skill_ids": [
+        "GO_01_02_001",
+        "GO_01_02_002",
+        "GO_01_02_003"
+      ],
+      "conceptual_tags": [
+        "ai_types_overview",
+        "Understanding AI Categories",
+        "Basic understanding of AI",
+        "Identifying AI Technologies"
+      ],
+      "ai_context": {
+        "domain_keywords": [],
+        "teaching_approach": "guided_discovery",
+        "assessment_weight": 0.6,
+        "prerequisite_enforcement": "flexible"
+      }
+    },
+    {
+      "lo_id": "LO_01_03",
+      "week": 1,
+      "week_name": "Introduction to AI",
+      "title": "AI vs ML Distinction",
+      "description": "Learning objective covering: Defining AI, Defining ML, Differentiating AI and ML, AI and ML Interrelation",
+      "cognitive_level": "Remember",
+      "difficulty_level": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 60,
+      "prerequisite_weeks": [],
+      "granular_skills_count": 4,
+      "granular_skill_ids": [
+        "GO_01_03_001",
+        "GO_01_03_002",
+        "GO_01_03_003",
+        "GO_01_03_004"
+      ],
+      "conceptual_tags": [
+        "Defining AI",
+        "ai_vs_ml_distinction",
+        "Defining ML"
+      ],
+      "ai_context": {
+        "domain_keywords": [],
+        "teaching_approach": "guided_discovery",
+        "assessment_weight": 0.6,
+        "prerequisite_enforcement": "flexible"
+      }
+    },
+    {
+      "lo_id": "LO_02_04",
+      "week": 2,
+      "week_name": "Machine Learning Basics",
+      "title": "ML Definition",
+      "description": "Learning objective covering: Understanding the term 'Machine Learning', Differentiating Machine Learning from AI, Identifying types of Machine Learning",
+      "cognitive_level": "Remember",
+      "difficulty_level": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 45,
+      "prerequisite_weeks": [],
+      "granular_skills_count": 3,
+      "granular_skill_ids": [
+        "GO_02_04_001",
+        "GO_02_04_002",
+        "GO_02_04_003"
+      ],
+      "conceptual_tags": [
+        "ml_definition",
+        "Understanding the term 'Machine Learning'"
+      ],
+      "ai_context": {
+        "domain_keywords": [
+          "machine learning"
+        ],
+        "teaching_approach": "guided_discovery",
+        "assessment_weight": 0.6,
+        "prerequisite_enforcement": "flexible"
+      }
+    },
+    {
+      "lo_id": "LO_02_05",
+      "week": 2,
+      "week_name": "Machine Learning Basics",
+      "title": "Supervised vs Unsupervise",
+      "description": "Learning objective covering: Understanding Supervised Learning, Understanding Unsupervised Learning, Distinguishing Supervised vs Unsupervised",
+      "cognitive_level": "Understand",
+      "difficulty_level": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 45,
+      "prerequisite_weeks": [],
+      "granular_skills_count": 3,
+      "granular_skill_ids": [
+        "GO_02_05_001",
+        "GO_02_05_002",
+        "GO_02_05_003"
+      ],
+      "conceptual_tags": [
+        "supervised_vs_unsupervise",
+        "Understanding Unsupervised Learning",
+        "Understanding Supervised Learning",
+        "Introduction to Machine Learning"
+      ],
+      "ai_context": {
+        "domain_keywords": [
+          "supervised",
+          "unsupervised"
+        ],
+        "teaching_approach": "guided_discovery",
+        "assessment_weight": 0.6,
+        "prerequisite_enforcement": "flexible"
+      }
+    },
+    {
+      "lo_id": "LO_02_06",
+      "week": 2,
+      "week_name": "Machine Learning Basics",
+      "title": "Common ML Algorithms",
+      "description": "Learning objective covering: Understanding of ML Algorithm Types, Knowledge of Specific ML Algorithms, Understanding ML Algorithm Applications",
+      "cognitive_level": "Understand",
+      "difficulty_level": 3,
+      "complexity": "basic",
+      "estimated_time_minutes": 45,
+      "prerequisite_weeks": [],
+      "granular_skills_count": 3,
+      "granular_skill_ids": [
+        "GO_02_06_001",
+        "GO_02_06_002",
+        "GO_02_06_003"
+      ],
+      "conceptual_tags": [
+        "common_ml_algorithms",
+        "Knowledge of Specific ML Algorithms",
+        "Understanding of ML Algorithm Types",
+        "Basic understanding of AI/ML"
+      ],
+      "ai_context": {
+        "domain_keywords": [
+          "algorithm"
+        ],
+        "teaching_approach": "guided_discovery",
+        "assessment_weight": 0.6,
+        "prerequisite_enforcement": "flexible"
+      }
+    },
+    {
+      "lo_id": "LO_03_07",
+      "week": 3,
+      "week_name": "Neural Networks",
+      "title": "NeuralNetworkMechanics",
+      "description": "Learning objective covering: Understanding Neural Network Structure, Neuron Activation Functions, Neural Network Training, Neural Network Applications",
+      "cognitive_level": "Understand",
+      "difficulty_level": 3,
+      "complexity": "basic",
+      "estimated_time_minutes": 60,
+      "prerequisite_weeks": [],
+      "granular_skills_count": 4,
+      "granular_skill_ids": [
+        "GO_03_07_001",
+        "GO_03_07_002",
+        "GO_03_07_003",
+        "GO_03_07_004"
+      ],
+      "conceptual_tags": [
+        "neuralnetworkmechanics",
+        "IntroToAI",
+        "BasicMathematics"
+      ],
+      "ai_context": {
+        "domain_keywords": [
+          "neural network",
+          "training"
+        ],
+        "teaching_approach": "guided_discovery",
+        "assessment_weight": 0.6,
+        "prerequisite_enforcement": "flexible"
+      }
+    },
+    {
+      "lo_id": "LO_03_08",
+      "week": 3,
+      "week_name": "Neural Networks",
+      "title": "ActivationFunctions101",
+      "description": "Learning objective covering: Understanding Basic Activation Functions, Activation Function Application, Analyzing Activation Function Impact, Advanced Activation Functions",
+      "cognitive_level": "Understand",
+      "difficulty_level": 3,
+      "complexity": "basic",
+      "estimated_time_minutes": 60,
+      "prerequisite_weeks": [],
+      "granular_skills_count": 4,
+      "granular_skill_ids": [
+        "GO_03_08_001",
+        "GO_03_08_002",
+        "GO_03_08_003",
+        "GO_03_08_004"
+      ],
+      "conceptual_tags": [
+        "UnderstandingBasicActivationFunctions",
+        "ActivationFunctionApplication",
+        "activationfunctions101",
+        "PerformanceMetrics",
+        "NeuralNetworkModeling",
+        "BasicNeuralNetworks",
+        "MathematicsBasics"
+      ],
+      "ai_context": {
+        "domain_keywords": [],
+        "teaching_approach": "guided_discovery",
+        "assessment_weight": 0.6,
+        "prerequisite_enforcement": "flexible"
+      }
+    },
+    {
+      "lo_id": "LO_03_09",
+      "week": 3,
+      "week_name": "Neural Networks",
+      "title": "SimpleNeuralNetBuild",
+      "description": "Learning objective covering: Understanding Neural Network Basics, Designing Neural Network Architecture, Implementing Neural Network, Training and Testing Neural Network",
+      "cognitive_level": "Understand",
+      "difficulty_level": 3,
+      "complexity": "basic",
+      "estimated_time_minutes": 60,
+      "prerequisite_weeks": [],
+      "granular_skills_count": 4,
+      "granular_skill_ids": [
+        "GO_03_09_001",
+        "GO_03_09_002",
+        "GO_03_09_003",
+        "GO_03_09_004"
+      ],
+      "conceptual_tags": [
+        "BasicProgramming",
+        "ImplementingNeuralNetwork",
+        "UnderstandingNeuralNetworkBasics",
+        "IntroToAI",
+        "DataPreprocessing",
+        "BasicMath",
+        "DesigningNeuralNetworkArchitecture",
+        "simpleneuralnetbuild"
+      ],
+      "ai_context": {
+        "domain_keywords": [
+          "neural network",
+          "training"
+        ],
+        "teaching_approach": "guided_discovery",
+        "assessment_weight": 0.6,
+        "prerequisite_enforcement": "flexible"
+      }
+    }
+  ],
+  "granular_objectives": [
+    {
+      "go_id": "GO_01_01_001",
+      "parent_lo_id": "LO_01_01",
+      "skill_name": "Definition of AI",
+      "skill_display_name": "Definition Of Ai",
+      "description": "Students will recall the concept of definition of ai and its role in ai basics. This includes understanding ai_basics.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Remember",
+      "cognitive_level_number": 1,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 1,
+      "mastery_threshold": 0.6,
+      "threshold_rationale": "Base: 0.65 (Knowledge) + Difficulty: -0.10 + Week: +0.00 = 0.60",
+      "conceptual_tags": [
+        "ai_basics"
+      ],
+      "prerequisite_concepts": [],
+      "tutoring_guidance": {
+        "primary_focus": "Students will recall the concept of definition of ai and its role in ai basics. This includes understanding ai_basics.",
+        "learning_outcomes": "After completing this objective, students should be able to recall definition of ai effectively.",
+        "common_misconceptions": [
+          "AI and ML are the same thing",
+          "AI can think like humans",
+          "All AI systems learn automatically"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to recall definition of ai at the remember level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Remember",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.6,
+          "adaptive_parameters": {
+            "success_threshold": 0.6,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Remember",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.6,
+          "adaptive_parameters": {
+            "success_threshold": 0.6,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_01_01_002",
+      "parent_lo_id": "LO_01_01",
+      "skill_name": "Types of AI",
+      "skill_display_name": "Types Of Ai",
+      "description": "Students will explain the concept of types of ai and its role in ai basics. This includes understanding ai_basics, Definition of AI.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Understand",
+      "cognitive_level_number": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 2,
+      "mastery_threshold": 0.65,
+      "threshold_rationale": "Base: 0.7 (Comprehension) + Difficulty: -0.05 + Week: +0.00 = 0.65",
+      "conceptual_tags": [
+        "ai_basics",
+        "Definition of AI"
+      ],
+      "prerequisite_concepts": [
+        "Definition of AI"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will explain the concept of types of ai and its role in ai basics. This includes understanding ai_basics, Definition of AI.",
+        "learning_outcomes": "After completing this objective, students should be able to explain types of ai effectively.",
+        "common_misconceptions": [
+          "AI and ML are the same thing",
+          "AI can think like humans",
+          "All AI systems learn automatically"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to explain types of ai at the understand level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.65,
+          "adaptive_parameters": {
+            "success_threshold": 0.65,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.65,
+          "adaptive_parameters": {
+            "success_threshold": 0.65,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_01_01_003",
+      "parent_lo_id": "LO_01_01",
+      "skill_name": "AI Applications",
+      "skill_display_name": "Ai Applications",
+      "description": "Students will implement ai applications procedures and techniques in practical scenarios. This includes understanding ai_basics, Definition of AI.",
+      "skill_category": "procedural",
+      "cognitive_level": "Apply",
+      "cognitive_level_number": 3,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 3,
+      "mastery_threshold": 0.75,
+      "threshold_rationale": "Base: 0.75 (Application) + Difficulty: +0.00 + Week: +0.00 = 0.75",
+      "conceptual_tags": [
+        "ai_basics",
+        "Definition of AI",
+        "Types of AI"
+      ],
+      "prerequisite_concepts": [
+        "Definition of AI",
+        "Types of AI"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will implement ai applications procedures and techniques in practical scenarios. This includes understanding ai_basics, Definition of AI.",
+        "learning_outcomes": "After completing this objective, students should be able to implement ai applications effectively.",
+        "common_misconceptions": [
+          "AI and ML are the same thing",
+          "AI can think like humans",
+          "All AI systems learn automatically"
+        ],
+        "teaching_strategies": [
+          "Provide hands-on practice exercises",
+          "Use case studies and real-world examples",
+          "Encourage step-by-step problem solving"
+        ],
+        "assessment_focus": "Assess student ability to implement ai applications at the apply level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "step_by_step",
+          "cognitive_level": "Apply",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.75,
+          "adaptive_parameters": {
+            "success_threshold": 0.75,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "implementation",
+          "cognitive_level": "Apply",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.75,
+          "adaptive_parameters": {
+            "success_threshold": 0.75,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "procedural",
+        "explanation_style": "step_by_step",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_01_01_004",
+      "parent_lo_id": "LO_01_01",
+      "skill_name": "AI Limitations",
+      "skill_display_name": "Ai Limitations",
+      "description": "Students will analyze ai limitations concepts to demonstrate understanding of ai basics. This includes understanding ai_basics, Definition of AI.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Analyze",
+      "cognitive_level_number": 4,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 4,
+      "mastery_threshold": 0.85,
+      "threshold_rationale": "Base: 0.8 (Analysis) + Difficulty: +0.05 + Week: +0.00 = 0.85",
+      "conceptual_tags": [
+        "ai_basics",
+        "Definition of AI",
+        "Types of AI"
+      ],
+      "prerequisite_concepts": [
+        "Definition of AI",
+        "Types of AI",
+        "AI Applications"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will analyze ai limitations concepts to demonstrate understanding of ai basics. This includes understanding ai_basics, Definition of AI.",
+        "learning_outcomes": "After completing this objective, students should be able to analyze ai limitations effectively.",
+        "common_misconceptions": [
+          "AI and ML are the same thing",
+          "AI can think like humans",
+          "All AI systems learn automatically"
+        ],
+        "teaching_strategies": [
+          "Provide hands-on practice exercises",
+          "Use case studies and real-world examples",
+          "Encourage step-by-step problem solving"
+        ],
+        "assessment_focus": "Assess student ability to analyze ai limitations at the analyze level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Analyze",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.85,
+          "adaptive_parameters": {
+            "success_threshold": 0.85,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Analyze",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.85,
+          "adaptive_parameters": {
+            "success_threshold": 0.85,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_01_02_001",
+      "parent_lo_id": "LO_01_02",
+      "skill_name": "Understanding AI Categories",
+      "skill_display_name": "Understanding Ai Categories",
+      "description": "Students will explain the concept of understanding ai categories and its role in ai types overview. This includes understanding ai_types_overview.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Understand",
+      "cognitive_level_number": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 2,
+      "mastery_threshold": 0.65,
+      "threshold_rationale": "Base: 0.7 (Comprehension) + Difficulty: -0.05 + Week: +0.00 = 0.65",
+      "conceptual_tags": [
+        "ai_types_overview",
+        "Basic understanding of AI"
+      ],
+      "prerequisite_concepts": [
+        "Basic understanding of AI"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will explain the concept of understanding ai categories and its role in ai types overview. This includes understanding ai_types_overview.",
+        "learning_outcomes": "After completing this objective, students should be able to explain understanding ai categories effectively.",
+        "common_misconceptions": [
+          "AI and ML are the same thing",
+          "AI can think like humans",
+          "All AI systems learn automatically"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to explain understanding ai categories at the understand level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.65,
+          "adaptive_parameters": {
+            "success_threshold": 0.65,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.65,
+          "adaptive_parameters": {
+            "success_threshold": 0.65,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_01_02_002",
+      "parent_lo_id": "LO_01_02",
+      "skill_name": "Identifying AI Technologies",
+      "skill_display_name": "Identifying Ai Technologies",
+      "description": "Students will recall how to perform identifying ai technologies in various contexts. This includes understanding ai_types_overview, Understanding AI Categories.",
+      "skill_category": "analytical",
+      "cognitive_level": "Remember",
+      "cognitive_level_number": 1,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 3,
+      "mastery_threshold": 0.65,
+      "threshold_rationale": "Base: 0.65 (Knowledge) + Difficulty: +0.00 + Week: +0.00 = 0.65",
+      "conceptual_tags": [
+        "ai_types_overview",
+        "Understanding AI Categories"
+      ],
+      "prerequisite_concepts": [
+        "Understanding AI Categories"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will recall how to perform identifying ai technologies in various contexts. This includes understanding ai_types_overview, Understanding AI Categories.",
+        "learning_outcomes": "After completing this objective, students should be able to recall identifying ai technologies effectively.",
+        "common_misconceptions": [
+          "AI and ML are the same thing",
+          "AI can think like humans",
+          "All AI systems learn automatically"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to recall identifying ai technologies at the remember level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "case_study",
+          "cognitive_level": "Remember",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.65,
+          "adaptive_parameters": {
+            "success_threshold": 0.65,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "comparison",
+          "cognitive_level": "Remember",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.65,
+          "adaptive_parameters": {
+            "success_threshold": 0.65,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "analytical",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": true
+        }
+      }
+    },
+    {
+      "go_id": "GO_01_02_003",
+      "parent_lo_id": "LO_01_02",
+      "skill_name": "Analyzing AI Applications",
+      "skill_display_name": "Analyzing Ai Applications",
+      "description": "Students will analyze the steps and methods involved in analyzing ai applications. This includes understanding ai_types_overview, Understanding AI Categories.",
+      "skill_category": "procedural",
+      "cognitive_level": "Analyze",
+      "cognitive_level_number": 4,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 4,
+      "mastery_threshold": 0.85,
+      "threshold_rationale": "Base: 0.8 (Analysis) + Difficulty: +0.05 + Week: +0.00 = 0.85",
+      "conceptual_tags": [
+        "ai_types_overview",
+        "Understanding AI Categories",
+        "Identifying AI Technologies"
+      ],
+      "prerequisite_concepts": [
+        "Understanding AI Categories",
+        "Identifying AI Technologies"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will analyze the steps and methods involved in analyzing ai applications. This includes understanding ai_types_overview, Understanding AI Categories.",
+        "learning_outcomes": "After completing this objective, students should be able to analyze analyzing ai applications effectively.",
+        "common_misconceptions": [
+          "AI and ML are the same thing",
+          "AI can think like humans",
+          "All AI systems learn automatically"
+        ],
+        "teaching_strategies": [
+          "Provide hands-on practice exercises",
+          "Use case studies and real-world examples",
+          "Encourage step-by-step problem solving"
+        ],
+        "assessment_focus": "Assess student ability to analyze analyzing ai applications at the analyze level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "step_by_step",
+          "cognitive_level": "Analyze",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.85,
+          "adaptive_parameters": {
+            "success_threshold": 0.85,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "implementation",
+          "cognitive_level": "Analyze",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.85,
+          "adaptive_parameters": {
+            "success_threshold": 0.85,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "procedural",
+        "explanation_style": "step_by_step",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_01_03_001",
+      "parent_lo_id": "LO_01_03",
+      "skill_name": "Defining AI",
+      "skill_display_name": "Defining Ai",
+      "description": "Students will recall the concept of defining ai and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Remember",
+      "cognitive_level_number": 1,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 2,
+      "mastery_threshold": 0.6,
+      "threshold_rationale": "Base: 0.65 (Knowledge) + Difficulty: -0.05 + Week: +0.00 = 0.60",
+      "conceptual_tags": [
+        "ai_vs_ml_distinction"
+      ],
+      "prerequisite_concepts": [],
+      "tutoring_guidance": {
+        "primary_focus": "Students will recall the concept of defining ai and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction.",
+        "learning_outcomes": "After completing this objective, students should be able to recall defining ai effectively.",
+        "common_misconceptions": [
+          "AI and ML are the same thing",
+          "AI can think like humans",
+          "All AI systems learn automatically"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to recall defining ai at the remember level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Remember",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.6,
+          "adaptive_parameters": {
+            "success_threshold": 0.6,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Remember",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.6,
+          "adaptive_parameters": {
+            "success_threshold": 0.6,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_01_03_002",
+      "parent_lo_id": "LO_01_03",
+      "skill_name": "Defining ML",
+      "skill_display_name": "Defining Ml",
+      "description": "Students will recall the concept of defining ml and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Remember",
+      "cognitive_level_number": 1,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 2,
+      "mastery_threshold": 0.6,
+      "threshold_rationale": "Base: 0.65 (Knowledge) + Difficulty: -0.05 + Week: +0.00 = 0.60",
+      "conceptual_tags": [
+        "ai_vs_ml_distinction"
+      ],
+      "prerequisite_concepts": [],
+      "tutoring_guidance": {
+        "primary_focus": "Students will recall the concept of defining ml and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction.",
+        "learning_outcomes": "After completing this objective, students should be able to recall defining ml effectively.",
+        "common_misconceptions": [
+          "More data always leads to better models",
+          "ML models are always objective and unbiased",
+          "Complex models are always better"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to recall defining ml at the remember level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Remember",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.6,
+          "adaptive_parameters": {
+            "success_threshold": 0.6,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Remember",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.6,
+          "adaptive_parameters": {
+            "success_threshold": 0.6,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_01_03_003",
+      "parent_lo_id": "LO_01_03",
+      "skill_name": "Differentiating AI and ML",
+      "skill_display_name": "Differentiating Ai And Ml",
+      "description": "Students will explain the concept of differentiating ai and ml and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction, Defining AI.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Understand",
+      "cognitive_level_number": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 3,
+      "mastery_threshold": 0.7,
+      "threshold_rationale": "Base: 0.7 (Comprehension) + Difficulty: +0.00 + Week: +0.00 = 0.70",
+      "conceptual_tags": [
+        "ai_vs_ml_distinction",
+        "Defining AI",
+        "Defining ML"
+      ],
+      "prerequisite_concepts": [
+        "Defining AI",
+        "Defining ML"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will explain the concept of differentiating ai and ml and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction, Defining AI.",
+        "learning_outcomes": "After completing this objective, students should be able to explain differentiating ai and ml effectively.",
+        "common_misconceptions": [
+          "AI and ML are the same thing",
+          "AI can think like humans",
+          "All AI systems learn automatically"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to explain differentiating ai and ml at the understand level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.7,
+          "adaptive_parameters": {
+            "success_threshold": 0.7,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.7,
+          "adaptive_parameters": {
+            "success_threshold": 0.7,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_01_03_004",
+      "parent_lo_id": "LO_01_03",
+      "skill_name": "AI and ML Interrelation",
+      "skill_display_name": "Ai And Ml Interrelation",
+      "description": "Students will explain the concept of ai and ml interrelation and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction, Defining AI.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Understand",
+      "cognitive_level_number": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 3,
+      "mastery_threshold": 0.7,
+      "threshold_rationale": "Base: 0.7 (Comprehension) + Difficulty: +0.00 + Week: +0.00 = 0.70",
+      "conceptual_tags": [
+        "ai_vs_ml_distinction",
+        "Defining AI",
+        "Defining ML"
+      ],
+      "prerequisite_concepts": [
+        "Defining AI",
+        "Defining ML"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will explain the concept of ai and ml interrelation and its role in ai vs ml distinction. This includes understanding ai_vs_ml_distinction, Defining AI.",
+        "learning_outcomes": "After completing this objective, students should be able to explain ai and ml interrelation effectively.",
+        "common_misconceptions": [
+          "AI and ML are the same thing",
+          "AI can think like humans",
+          "All AI systems learn automatically"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to explain ai and ml interrelation at the understand level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.7,
+          "adaptive_parameters": {
+            "success_threshold": 0.7,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.7,
+          "adaptive_parameters": {
+            "success_threshold": 0.7,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_02_04_001",
+      "parent_lo_id": "LO_02_04",
+      "skill_name": "Understanding the term 'Machine Learning'",
+      "skill_display_name": "Understanding The Term 'Machine Learning'",
+      "description": "Students will recall the concept of understanding the term 'machine learning' and its role in ml definition. This includes understanding ml_definition.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Remember",
+      "cognitive_level_number": 1,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 1,
+      "mastery_threshold": 0.6,
+      "threshold_rationale": "Base: 0.65 (Knowledge) + Difficulty: -0.10 + Week: +0.01 = 0.60",
+      "conceptual_tags": [
+        "ml_definition"
+      ],
+      "prerequisite_concepts": [],
+      "tutoring_guidance": {
+        "primary_focus": "Students will recall the concept of understanding the term 'machine learning' and its role in ml definition. This includes understanding ml_definition.",
+        "learning_outcomes": "After completing this objective, students should be able to recall understanding the term 'machine learning' effectively.",
+        "common_misconceptions": [
+          "More data always leads to better models",
+          "ML models are always objective and unbiased",
+          "Complex models are always better"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to recall understanding the term 'machine learning' at the remember level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Remember",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.6,
+          "adaptive_parameters": {
+            "success_threshold": 0.6,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Remember",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.6,
+          "adaptive_parameters": {
+            "success_threshold": 0.6,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_02_04_002",
+      "parent_lo_id": "LO_02_04",
+      "skill_name": "Differentiating Machine Learning from AI",
+      "skill_display_name": "Differentiating Machine Learning From Ai",
+      "description": "Students will explain the concept of differentiating machine learning from ai and its role in ml definition. This includes understanding ml_definition, Understanding the term 'Machine Learning'.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Understand",
+      "cognitive_level_number": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 2,
+      "mastery_threshold": 0.65,
+      "threshold_rationale": "Base: 0.7 (Comprehension) + Difficulty: -0.05 + Week: +0.01 = 0.65",
+      "conceptual_tags": [
+        "ml_definition",
+        "Understanding the term 'Machine Learning'"
+      ],
+      "prerequisite_concepts": [
+        "Understanding the term 'Machine Learning'"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will explain the concept of differentiating machine learning from ai and its role in ml definition. This includes understanding ml_definition, Understanding the term 'Machine Learning'.",
+        "learning_outcomes": "After completing this objective, students should be able to explain differentiating machine learning from ai effectively.",
+        "common_misconceptions": [
+          "AI and ML are the same thing",
+          "AI can think like humans",
+          "All AI systems learn automatically"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to explain differentiating machine learning from ai at the understand level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.65,
+          "adaptive_parameters": {
+            "success_threshold": 0.65,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.65,
+          "adaptive_parameters": {
+            "success_threshold": 0.65,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_02_04_003",
+      "parent_lo_id": "LO_02_04",
+      "skill_name": "Identifying types of Machine Learning",
+      "skill_display_name": "Identifying Types Of Machine Learning",
+      "description": "Students will explain how to perform identifying types of machine learning in various contexts. This includes understanding ml_definition, Understanding the term 'Machine Learning'.",
+      "skill_category": "analytical",
+      "cognitive_level": "Understand",
+      "cognitive_level_number": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 3,
+      "mastery_threshold": 0.7,
+      "threshold_rationale": "Base: 0.7 (Comprehension) + Difficulty: +0.00 + Week: +0.01 = 0.70",
+      "conceptual_tags": [
+        "ml_definition",
+        "Understanding the term 'Machine Learning'"
+      ],
+      "prerequisite_concepts": [
+        "Understanding the term 'Machine Learning'"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will explain how to perform identifying types of machine learning in various contexts. This includes understanding ml_definition, Understanding the term 'Machine Learning'.",
+        "learning_outcomes": "After completing this objective, students should be able to explain identifying types of machine learning effectively.",
+        "common_misconceptions": [
+          "More data always leads to better models",
+          "ML models are always objective and unbiased",
+          "Complex models are always better"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to explain identifying types of machine learning at the understand level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "case_study",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.7,
+          "adaptive_parameters": {
+            "success_threshold": 0.7,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "comparison",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.7,
+          "adaptive_parameters": {
+            "success_threshold": 0.7,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "analytical",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": true
+        }
+      }
+    },
+    {
+      "go_id": "GO_02_05_001",
+      "parent_lo_id": "LO_02_05",
+      "skill_name": "Understanding Supervised Learning",
+      "skill_display_name": "Understanding Supervised Learning",
+      "description": "Students will explain the concept of understanding supervised learning and its role in supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Introduction to Machine Learning.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Understand",
+      "cognitive_level_number": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 2,
+      "mastery_threshold": 0.65,
+      "threshold_rationale": "Base: 0.7 (Comprehension) + Difficulty: -0.05 + Week: +0.01 = 0.65",
+      "conceptual_tags": [
+        "supervised_vs_unsupervise",
+        "Introduction to Machine Learning"
+      ],
+      "prerequisite_concepts": [
+        "Introduction to Machine Learning"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will explain the concept of understanding supervised learning and its role in supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Introduction to Machine Learning.",
+        "learning_outcomes": "After completing this objective, students should be able to explain understanding supervised learning effectively.",
+        "common_misconceptions": [
+          "Confusing correlation with causation",
+          "Misunderstanding the scope of applicability"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to explain understanding supervised learning at the understand level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.65,
+          "adaptive_parameters": {
+            "success_threshold": 0.65,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.65,
+          "adaptive_parameters": {
+            "success_threshold": 0.65,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_02_05_002",
+      "parent_lo_id": "LO_02_05",
+      "skill_name": "Understanding Unsupervised Learning",
+      "skill_display_name": "Understanding Unsupervised Learning",
+      "description": "Students will explain the concept of understanding unsupervised learning and its role in supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Introduction to Machine Learning.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Understand",
+      "cognitive_level_number": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 2,
+      "mastery_threshold": 0.65,
+      "threshold_rationale": "Base: 0.7 (Comprehension) + Difficulty: -0.05 + Week: +0.01 = 0.65",
+      "conceptual_tags": [
+        "supervised_vs_unsupervise",
+        "Introduction to Machine Learning"
+      ],
+      "prerequisite_concepts": [
+        "Introduction to Machine Learning"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will explain the concept of understanding unsupervised learning and its role in supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Introduction to Machine Learning.",
+        "learning_outcomes": "After completing this objective, students should be able to explain understanding unsupervised learning effectively.",
+        "common_misconceptions": [
+          "Confusing correlation with causation",
+          "Misunderstanding the scope of applicability"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to explain understanding unsupervised learning at the understand level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.65,
+          "adaptive_parameters": {
+            "success_threshold": 0.65,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.65,
+          "adaptive_parameters": {
+            "success_threshold": 0.65,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_02_05_003",
+      "parent_lo_id": "LO_02_05",
+      "skill_name": "Distinguishing Supervised vs Unsupervised",
+      "skill_display_name": "Distinguishing Supervised Vs Unsupervised",
+      "description": "Students will analyze distinguishing supervised vs unsupervised concepts to demonstrate understanding of supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Understanding Supervised Learning.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Analyze",
+      "cognitive_level_number": 4,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 3,
+      "mastery_threshold": 0.81,
+      "threshold_rationale": "Base: 0.8 (Analysis) + Difficulty: +0.00 + Week: +0.01 = 0.81",
+      "conceptual_tags": [
+        "supervised_vs_unsupervise",
+        "Understanding Supervised Learning",
+        "Understanding Unsupervised Learning"
+      ],
+      "prerequisite_concepts": [
+        "Understanding Supervised Learning",
+        "Understanding Unsupervised Learning"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will analyze distinguishing supervised vs unsupervised concepts to demonstrate understanding of supervised vs unsupervise. This includes understanding supervised_vs_unsupervise, Understanding Supervised Learning.",
+        "learning_outcomes": "After completing this objective, students should be able to analyze distinguishing supervised vs unsupervised effectively.",
+        "common_misconceptions": [
+          "Confusing correlation with causation",
+          "Misunderstanding the scope of applicability"
+        ],
+        "teaching_strategies": [
+          "Provide hands-on practice exercises",
+          "Use case studies and real-world examples",
+          "Encourage step-by-step problem solving"
+        ],
+        "assessment_focus": "Assess student ability to analyze distinguishing supervised vs unsupervised at the analyze level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Analyze",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.81,
+          "adaptive_parameters": {
+            "success_threshold": 0.81,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Analyze",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.81,
+          "adaptive_parameters": {
+            "success_threshold": 0.81,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_02_06_001",
+      "parent_lo_id": "LO_02_06",
+      "skill_name": "Understanding of ML Algorithm Types",
+      "skill_display_name": "Understanding Of Ml Algorithm Types",
+      "description": "Students will explain the concept of understanding of ml algorithm types and its role in common ml algorithms. This includes understanding common_ml_algorithms.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Understand",
+      "cognitive_level_number": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 2,
+      "mastery_threshold": 0.65,
+      "threshold_rationale": "Base: 0.7 (Comprehension) + Difficulty: -0.05 + Week: +0.01 = 0.65",
+      "conceptual_tags": [
+        "common_ml_algorithms",
+        "Basic understanding of AI/ML"
+      ],
+      "prerequisite_concepts": [
+        "Basic understanding of AI/ML"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will explain the concept of understanding of ml algorithm types and its role in common ml algorithms. This includes understanding common_ml_algorithms.",
+        "learning_outcomes": "After completing this objective, students should be able to explain understanding of ml algorithm types effectively.",
+        "common_misconceptions": [
+          "More data always leads to better models",
+          "ML models are always objective and unbiased",
+          "Complex models are always better"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to explain understanding of ml algorithm types at the understand level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.65,
+          "adaptive_parameters": {
+            "success_threshold": 0.65,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.65,
+          "adaptive_parameters": {
+            "success_threshold": 0.65,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_02_06_002",
+      "parent_lo_id": "LO_02_06",
+      "skill_name": "Knowledge of Specific ML Algorithms",
+      "skill_display_name": "Knowledge Of Specific Ml Algorithms",
+      "description": "Students will recall the concept of knowledge of specific ml algorithms and its role in common ml algorithms. This includes understanding common_ml_algorithms, Understanding of ML Algorithm Types.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Remember",
+      "cognitive_level_number": 1,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 3,
+      "mastery_threshold": 0.66,
+      "threshold_rationale": "Base: 0.65 (Knowledge) + Difficulty: +0.00 + Week: +0.01 = 0.66",
+      "conceptual_tags": [
+        "common_ml_algorithms",
+        "Understanding of ML Algorithm Types"
+      ],
+      "prerequisite_concepts": [
+        "Understanding of ML Algorithm Types"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will recall the concept of knowledge of specific ml algorithms and its role in common ml algorithms. This includes understanding common_ml_algorithms, Understanding of ML Algorithm Types.",
+        "learning_outcomes": "After completing this objective, students should be able to recall knowledge of specific ml algorithms effectively.",
+        "common_misconceptions": [
+          "More data always leads to better models",
+          "ML models are always objective and unbiased",
+          "Complex models are always better"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to recall knowledge of specific ml algorithms at the remember level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Remember",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.66,
+          "adaptive_parameters": {
+            "success_threshold": 0.66,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Remember",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.66,
+          "adaptive_parameters": {
+            "success_threshold": 0.66,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_02_06_003",
+      "parent_lo_id": "LO_02_06",
+      "skill_name": "Understanding ML Algorithm Applications",
+      "skill_display_name": "Understanding Ml Algorithm Applications",
+      "description": "Students will implement understanding ml algorithm applications procedures and techniques in practical scenarios. This includes understanding common_ml_algorithms, Knowledge of Specific ML Algorithms.",
+      "skill_category": "procedural",
+      "cognitive_level": "Apply",
+      "cognitive_level_number": 3,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 4,
+      "mastery_threshold": 0.81,
+      "threshold_rationale": "Base: 0.75 (Application) + Difficulty: +0.05 + Week: +0.01 = 0.81",
+      "conceptual_tags": [
+        "common_ml_algorithms",
+        "Knowledge of Specific ML Algorithms"
+      ],
+      "prerequisite_concepts": [
+        "Knowledge of Specific ML Algorithms"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will implement understanding ml algorithm applications procedures and techniques in practical scenarios. This includes understanding common_ml_algorithms, Knowledge of Specific ML Algorithms.",
+        "learning_outcomes": "After completing this objective, students should be able to implement understanding ml algorithm applications effectively.",
+        "common_misconceptions": [
+          "More data always leads to better models",
+          "ML models are always objective and unbiased",
+          "Complex models are always better"
+        ],
+        "teaching_strategies": [
+          "Provide hands-on practice exercises",
+          "Use case studies and real-world examples",
+          "Encourage step-by-step problem solving"
+        ],
+        "assessment_focus": "Assess student ability to implement understanding ml algorithm applications at the apply level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "step_by_step",
+          "cognitive_level": "Apply",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.81,
+          "adaptive_parameters": {
+            "success_threshold": 0.81,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "implementation",
+          "cognitive_level": "Apply",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.81,
+          "adaptive_parameters": {
+            "success_threshold": 0.81,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "procedural",
+        "explanation_style": "step_by_step",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_03_07_001",
+      "parent_lo_id": "LO_03_07",
+      "skill_name": "Understanding Neural Network Structure",
+      "skill_display_name": "Understanding Neural Network Structure",
+      "description": "Students will explain the concept of understanding neural network structure and its role in neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Understand",
+      "cognitive_level_number": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 2,
+      "mastery_threshold": 0.66,
+      "threshold_rationale": "Base: 0.7 (Comprehension) + Difficulty: -0.05 + Week: +0.01 = 0.66",
+      "conceptual_tags": [
+        "neuralnetworkmechanics",
+        "BasicMathematics",
+        "IntroToAI"
+      ],
+      "prerequisite_concepts": [
+        "BasicMathematics",
+        "IntroToAI"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will explain the concept of understanding neural network structure and its role in neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+        "learning_outcomes": "After completing this objective, students should be able to explain understanding neural network structure effectively.",
+        "common_misconceptions": [
+          "Neural networks work exactly like the human brain",
+          "More layers always improve performance",
+          "Neural networks are black boxes that cannot be interpreted"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to explain understanding neural network structure at the understand level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.66,
+          "adaptive_parameters": {
+            "success_threshold": 0.66,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.66,
+          "adaptive_parameters": {
+            "success_threshold": 0.66,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_03_07_002",
+      "parent_lo_id": "LO_03_07",
+      "skill_name": "Neuron Activation Functions",
+      "skill_display_name": "Neuron Activation Functions",
+      "description": "Students will explain the concept of neuron activation functions and its role in neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Understand",
+      "cognitive_level_number": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 3,
+      "mastery_threshold": 0.71,
+      "threshold_rationale": "Base: 0.7 (Comprehension) + Difficulty: +0.00 + Week: +0.01 = 0.71",
+      "conceptual_tags": [
+        "neuralnetworkmechanics",
+        "BasicMathematics",
+        "IntroToAI"
+      ],
+      "prerequisite_concepts": [
+        "BasicMathematics",
+        "IntroToAI"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will explain the concept of neuron activation functions and its role in neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+        "learning_outcomes": "After completing this objective, students should be able to explain neuron activation functions effectively.",
+        "common_misconceptions": [
+          "Confusing correlation with causation",
+          "Misunderstanding the scope of applicability"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to explain neuron activation functions at the understand level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.71,
+          "adaptive_parameters": {
+            "success_threshold": 0.71,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.71,
+          "adaptive_parameters": {
+            "success_threshold": 0.71,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_03_07_003",
+      "parent_lo_id": "LO_03_07",
+      "skill_name": "Neural Network Training",
+      "skill_display_name": "Neural Network Training",
+      "description": "Students will implement neural network training concepts to demonstrate understanding of neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Apply",
+      "cognitive_level_number": 3,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 4,
+      "mastery_threshold": 0.81,
+      "threshold_rationale": "Base: 0.75 (Application) + Difficulty: +0.05 + Week: +0.01 = 0.81",
+      "conceptual_tags": [
+        "neuralnetworkmechanics",
+        "BasicMathematics",
+        "IntroToAI"
+      ],
+      "prerequisite_concepts": [
+        "BasicMathematics",
+        "IntroToAI",
+        "BasicStatistics"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will implement neural network training concepts to demonstrate understanding of neuralnetworkmechanics. This includes understanding neuralnetworkmechanics, IntroToAI.",
+        "learning_outcomes": "After completing this objective, students should be able to implement neural network training effectively.",
+        "common_misconceptions": [
+          "AI and ML are the same thing",
+          "AI can think like humans",
+          "All AI systems learn automatically"
+        ],
+        "teaching_strategies": [
+          "Provide hands-on practice exercises",
+          "Use case studies and real-world examples",
+          "Encourage step-by-step problem solving"
+        ],
+        "assessment_focus": "Assess student ability to implement neural network training at the apply level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Apply",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.81,
+          "adaptive_parameters": {
+            "success_threshold": 0.81,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Apply",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.81,
+          "adaptive_parameters": {
+            "success_threshold": 0.81,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_03_07_004",
+      "parent_lo_id": "LO_03_07",
+      "skill_name": "Neural Network Applications",
+      "skill_display_name": "Neural Network Applications",
+      "description": "Students will implement neural network applications procedures and techniques in practical scenarios. This includes understanding neuralnetworkmechanics, IntroToAI.",
+      "skill_category": "procedural",
+      "cognitive_level": "Apply",
+      "cognitive_level_number": 3,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 3,
+      "mastery_threshold": 0.76,
+      "threshold_rationale": "Base: 0.75 (Application) + Difficulty: +0.00 + Week: +0.01 = 0.76",
+      "conceptual_tags": [
+        "neuralnetworkmechanics",
+        "IntroToAI"
+      ],
+      "prerequisite_concepts": [
+        "IntroToAI"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will implement neural network applications procedures and techniques in practical scenarios. This includes understanding neuralnetworkmechanics, IntroToAI.",
+        "learning_outcomes": "After completing this objective, students should be able to implement neural network applications effectively.",
+        "common_misconceptions": [
+          "Neural networks work exactly like the human brain",
+          "More layers always improve performance",
+          "Neural networks are black boxes that cannot be interpreted"
+        ],
+        "teaching_strategies": [
+          "Provide hands-on practice exercises",
+          "Use case studies and real-world examples",
+          "Encourage step-by-step problem solving"
+        ],
+        "assessment_focus": "Assess student ability to implement neural network applications at the apply level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "step_by_step",
+          "cognitive_level": "Apply",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.76,
+          "adaptive_parameters": {
+            "success_threshold": 0.76,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "implementation",
+          "cognitive_level": "Apply",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.76,
+          "adaptive_parameters": {
+            "success_threshold": 0.76,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "procedural",
+        "explanation_style": "step_by_step",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_03_08_001",
+      "parent_lo_id": "LO_03_08",
+      "skill_name": "Understanding Basic Activation Functions",
+      "skill_display_name": "Understanding Basic Activation Functions",
+      "description": "Students will explain the concept of understanding basic activation functions and its role in activationfunctions101. This includes understanding activationfunctions101, MathematicsBasics.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Understand",
+      "cognitive_level_number": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 2,
+      "mastery_threshold": 0.66,
+      "threshold_rationale": "Base: 0.7 (Comprehension) + Difficulty: -0.05 + Week: +0.01 = 0.66",
+      "conceptual_tags": [
+        "activationfunctions101",
+        "BasicNeuralNetworks",
+        "MathematicsBasics"
+      ],
+      "prerequisite_concepts": [
+        "BasicNeuralNetworks",
+        "MathematicsBasics"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will explain the concept of understanding basic activation functions and its role in activationfunctions101. This includes understanding activationfunctions101, MathematicsBasics.",
+        "learning_outcomes": "After completing this objective, students should be able to explain understanding basic activation functions effectively.",
+        "common_misconceptions": [
+          "Confusing correlation with causation",
+          "Misunderstanding the scope of applicability"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to explain understanding basic activation functions at the understand level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.66,
+          "adaptive_parameters": {
+            "success_threshold": 0.66,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.66,
+          "adaptive_parameters": {
+            "success_threshold": 0.66,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_03_08_002",
+      "parent_lo_id": "LO_03_08",
+      "skill_name": "Activation Function Application",
+      "skill_display_name": "Activation Function Application",
+      "description": "Students will implement activation function application procedures and techniques in practical scenarios. This includes understanding activationfunctions101, UnderstandingBasicActivationFunctions.",
+      "skill_category": "procedural",
+      "cognitive_level": "Apply",
+      "cognitive_level_number": 3,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 3,
+      "mastery_threshold": 0.76,
+      "threshold_rationale": "Base: 0.75 (Application) + Difficulty: +0.00 + Week: +0.01 = 0.76",
+      "conceptual_tags": [
+        "activationfunctions101",
+        "UnderstandingBasicActivationFunctions",
+        "NeuralNetworkModeling"
+      ],
+      "prerequisite_concepts": [
+        "UnderstandingBasicActivationFunctions",
+        "NeuralNetworkModeling"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will implement activation function application procedures and techniques in practical scenarios. This includes understanding activationfunctions101, UnderstandingBasicActivationFunctions.",
+        "learning_outcomes": "After completing this objective, students should be able to implement activation function application effectively.",
+        "common_misconceptions": [
+          "Skipping validation steps",
+          "Misunderstanding parameter tuning effects"
+        ],
+        "teaching_strategies": [
+          "Provide hands-on practice exercises",
+          "Use case studies and real-world examples",
+          "Encourage step-by-step problem solving"
+        ],
+        "assessment_focus": "Assess student ability to implement activation function application at the apply level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "step_by_step",
+          "cognitive_level": "Apply",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.76,
+          "adaptive_parameters": {
+            "success_threshold": 0.76,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "implementation",
+          "cognitive_level": "Apply",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.76,
+          "adaptive_parameters": {
+            "success_threshold": 0.76,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "procedural",
+        "explanation_style": "step_by_step",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_03_08_003",
+      "parent_lo_id": "LO_03_08",
+      "skill_name": "Analyzing Activation Function Impact",
+      "skill_display_name": "Analyzing Activation Function Impact",
+      "description": "Students will analyze analyzing activation function impact concepts to demonstrate understanding of activationfunctions101. This includes understanding activationfunctions101, ActivationFunctionApplication.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Analyze",
+      "cognitive_level_number": 4,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 4,
+      "mastery_threshold": 0.86,
+      "threshold_rationale": "Base: 0.8 (Analysis) + Difficulty: +0.05 + Week: +0.01 = 0.86",
+      "conceptual_tags": [
+        "activationfunctions101",
+        "ActivationFunctionApplication",
+        "PerformanceMetrics"
+      ],
+      "prerequisite_concepts": [
+        "ActivationFunctionApplication",
+        "PerformanceMetrics"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will analyze analyzing activation function impact concepts to demonstrate understanding of activationfunctions101. This includes understanding activationfunctions101, ActivationFunctionApplication.",
+        "learning_outcomes": "After completing this objective, students should be able to analyze analyzing activation function impact effectively.",
+        "common_misconceptions": [
+          "Confusing correlation with causation",
+          "Misunderstanding the scope of applicability"
+        ],
+        "teaching_strategies": [
+          "Provide hands-on practice exercises",
+          "Use case studies and real-world examples",
+          "Encourage step-by-step problem solving"
+        ],
+        "assessment_focus": "Assess student ability to analyze analyzing activation function impact at the analyze level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Analyze",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.86,
+          "adaptive_parameters": {
+            "success_threshold": 0.86,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Analyze",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.86,
+          "adaptive_parameters": {
+            "success_threshold": 0.86,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_03_08_004",
+      "parent_lo_id": "LO_03_08",
+      "skill_name": "Advanced Activation Functions",
+      "skill_display_name": "Advanced Activation Functions",
+      "description": "Students will explain the concept of advanced activation functions and its role in activationfunctions101. This includes understanding activationfunctions101, UnderstandingBasicActivationFunctions.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Understand",
+      "cognitive_level_number": 2,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 3,
+      "mastery_threshold": 0.71,
+      "threshold_rationale": "Base: 0.7 (Comprehension) + Difficulty: +0.00 + Week: +0.01 = 0.71",
+      "conceptual_tags": [
+        "activationfunctions101",
+        "UnderstandingBasicActivationFunctions"
+      ],
+      "prerequisite_concepts": [
+        "UnderstandingBasicActivationFunctions"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will explain the concept of advanced activation functions and its role in activationfunctions101. This includes understanding activationfunctions101, UnderstandingBasicActivationFunctions.",
+        "learning_outcomes": "After completing this objective, students should be able to explain advanced activation functions effectively.",
+        "common_misconceptions": [
+          "Confusing correlation with causation",
+          "Misunderstanding the scope of applicability"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to explain advanced activation functions at the understand level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.71,
+          "adaptive_parameters": {
+            "success_threshold": 0.71,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Understand",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.71,
+          "adaptive_parameters": {
+            "success_threshold": 0.71,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_03_09_001",
+      "parent_lo_id": "LO_03_09",
+      "skill_name": "Understanding Neural Network Basics",
+      "skill_display_name": "Understanding Neural Network Basics",
+      "description": "Students will recall the concept of understanding neural network basics and its role in simpleneuralnetbuild. This includes understanding simpleneuralnetbuild, IntroToAI.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Remember",
+      "cognitive_level_number": 1,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 2,
+      "mastery_threshold": 0.61,
+      "threshold_rationale": "Base: 0.65 (Knowledge) + Difficulty: -0.05 + Week: +0.01 = 0.61",
+      "conceptual_tags": [
+        "simpleneuralnetbuild",
+        "BasicMath",
+        "IntroToAI"
+      ],
+      "prerequisite_concepts": [
+        "BasicMath",
+        "IntroToAI"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will recall the concept of understanding neural network basics and its role in simpleneuralnetbuild. This includes understanding simpleneuralnetbuild, IntroToAI.",
+        "learning_outcomes": "After completing this objective, students should be able to recall understanding neural network basics effectively.",
+        "common_misconceptions": [
+          "Neural networks work exactly like the human brain",
+          "More layers always improve performance",
+          "Neural networks are black boxes that cannot be interpreted"
+        ],
+        "teaching_strategies": [
+          "Use visual diagrams and concept maps",
+          "Provide clear definitions with examples",
+          "Use analogies to familiar concepts"
+        ],
+        "assessment_focus": "Assess student ability to recall understanding neural network basics at the remember level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Remember",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.61,
+          "adaptive_parameters": {
+            "success_threshold": 0.61,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Remember",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.61,
+          "adaptive_parameters": {
+            "success_threshold": 0.61,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_03_09_002",
+      "parent_lo_id": "LO_03_09",
+      "skill_name": "Designing Neural Network Architecture",
+      "skill_display_name": "Designing Neural Network Architecture",
+      "description": "Students will implement designing neural network architecture concepts and their applications. This includes understanding simpleneuralnetbuild, UnderstandingNeuralNetworkBasics.",
+      "skill_category": "creative",
+      "cognitive_level": "Apply",
+      "cognitive_level_number": 3,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 3,
+      "mastery_threshold": 0.76,
+      "threshold_rationale": "Base: 0.75 (Application) + Difficulty: +0.00 + Week: +0.01 = 0.76",
+      "conceptual_tags": [
+        "simpleneuralnetbuild",
+        "UnderstandingNeuralNetworkBasics"
+      ],
+      "prerequisite_concepts": [
+        "UnderstandingNeuralNetworkBasics"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will implement designing neural network architecture concepts and their applications. This includes understanding simpleneuralnetbuild, UnderstandingNeuralNetworkBasics.",
+        "learning_outcomes": "After completing this objective, students should be able to implement designing neural network architecture effectively.",
+        "common_misconceptions": [
+          "Neural networks work exactly like the human brain",
+          "More layers always improve performance",
+          "Neural networks are black boxes that cannot be interpreted"
+        ],
+        "teaching_strategies": [
+          "Provide hands-on practice exercises",
+          "Use case studies and real-world examples",
+          "Encourage step-by-step problem solving"
+        ],
+        "assessment_focus": "Assess student ability to implement designing neural network architecture at the apply level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "project",
+          "cognitive_level": "Apply",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.76,
+          "adaptive_parameters": {
+            "success_threshold": 0.76,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "design",
+          "cognitive_level": "Apply",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.76,
+          "adaptive_parameters": {
+            "success_threshold": 0.76,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "creative",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": true
+        }
+      }
+    },
+    {
+      "go_id": "GO_03_09_003",
+      "parent_lo_id": "LO_03_09",
+      "skill_name": "Implementing Neural Network",
+      "skill_display_name": "Implementing Neural Network",
+      "description": "Students will implement implementing neural network procedures and techniques in practical scenarios. This includes understanding simpleneuralnetbuild, DesigningNeuralNetworkArchitecture.",
+      "skill_category": "procedural",
+      "cognitive_level": "Apply",
+      "cognitive_level_number": 3,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 4,
+      "mastery_threshold": 0.81,
+      "threshold_rationale": "Base: 0.75 (Application) + Difficulty: +0.05 + Week: +0.01 = 0.81",
+      "conceptual_tags": [
+        "simpleneuralnetbuild",
+        "DesigningNeuralNetworkArchitecture",
+        "BasicProgramming"
+      ],
+      "prerequisite_concepts": [
+        "DesigningNeuralNetworkArchitecture",
+        "BasicProgramming"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will implement implementing neural network procedures and techniques in practical scenarios. This includes understanding simpleneuralnetbuild, DesigningNeuralNetworkArchitecture.",
+        "learning_outcomes": "After completing this objective, students should be able to implement implementing neural network effectively.",
+        "common_misconceptions": [
+          "Neural networks work exactly like the human brain",
+          "More layers always improve performance",
+          "Neural networks are black boxes that cannot be interpreted"
+        ],
+        "teaching_strategies": [
+          "Provide hands-on practice exercises",
+          "Use case studies and real-world examples",
+          "Encourage step-by-step problem solving"
+        ],
+        "assessment_focus": "Assess student ability to implement implementing neural network at the apply level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "step_by_step",
+          "cognitive_level": "Apply",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.81,
+          "adaptive_parameters": {
+            "success_threshold": 0.81,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "implementation",
+          "cognitive_level": "Apply",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.81,
+          "adaptive_parameters": {
+            "success_threshold": 0.81,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "procedural",
+        "explanation_style": "step_by_step",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    },
+    {
+      "go_id": "GO_03_09_004",
+      "parent_lo_id": "LO_03_09",
+      "skill_name": "Training and Testing Neural Network",
+      "skill_display_name": "Training And Testing Neural Network",
+      "description": "Students will analyze training and testing neural network concepts to demonstrate understanding of simpleneuralnetbuild. This includes understanding simpleneuralnetbuild, ImplementingNeuralNetwork.",
+      "skill_category": "conceptual",
+      "cognitive_level": "Analyze",
+      "cognitive_level_number": 4,
+      "complexity": "basic",
+      "estimated_time_minutes": 15,
+      "estimated_difficulty": 4,
+      "mastery_threshold": 0.86,
+      "threshold_rationale": "Base: 0.8 (Analysis) + Difficulty: +0.05 + Week: +0.01 = 0.86",
+      "conceptual_tags": [
+        "simpleneuralnetbuild",
+        "ImplementingNeuralNetwork",
+        "DataPreprocessing"
+      ],
+      "prerequisite_concepts": [
+        "ImplementingNeuralNetwork",
+        "DataPreprocessing"
+      ],
+      "tutoring_guidance": {
+        "primary_focus": "Students will analyze training and testing neural network concepts to demonstrate understanding of simpleneuralnetbuild. This includes understanding simpleneuralnetbuild, ImplementingNeuralNetwork.",
+        "learning_outcomes": "After completing this objective, students should be able to analyze training and testing neural network effectively.",
+        "common_misconceptions": [
+          "AI and ML are the same thing",
+          "AI can think like humans",
+          "All AI systems learn automatically"
+        ],
+        "teaching_strategies": [
+          "Provide hands-on practice exercises",
+          "Use case studies and real-world examples",
+          "Encourage step-by-step problem solving"
+        ],
+        "assessment_focus": "Assess student ability to analyze training and testing neural network at the analyze level."
+      },
+      "assessment_strategies": [
+        {
+          "type": "multiple_choice",
+          "cognitive_level": "Analyze",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.86,
+          "adaptive_parameters": {
+            "success_threshold": 0.86,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        },
+        {
+          "type": "short_answer",
+          "cognitive_level": "Analyze",
+          "estimated_duration_minutes": 5,
+          "difficulty_weight": "shallow",
+          "mastery_threshold": 0.86,
+          "adaptive_parameters": {
+            "success_threshold": 0.86,
+            "retry_limit": 3,
+            "hint_availability": true,
+            "collaborative_allowed": false
+          },
+          "ai_generation_context": {
+            "max_tokens": 50,
+            "context_depth": "shallow",
+            "examples_required": 1,
+            "domain_focus": "demo101",
+            "technical_level": "basic"
+          }
+        }
+      ],
+      "ai_generation_parameters": {
+        "content_focus": "conceptual",
+        "explanation_style": "conceptual",
+        "example_complexity": "basic",
+        "interaction_mode": "guided",
+        "remediation_available": true,
+        "extension_activities": false
+      },
+      "adaptive_rules": {
+        "prerequisite_check": false,
+        "difficulty_adjustment": {
+          "success_rate_threshold": 0.8,
+          "failure_rate_threshold": 0.3,
+          "adjustment_magnitude": 0.1
+        },
+        "personalization": {
+          "learning_style_adaptation": true,
+          "pace_adjustment": true,
+          "interest_integration": false
+        }
+      }
+    }
+  ],
+  "assessment_framework": {
+    "cognitive_levels": {
+      "1": "Remember",
+      "2": "Understand",
+      "3": "Apply",
+      "4": "Analyze",
+      "5": "Evaluate",
+      "6": "Create"
+    },
+    "assessment_types": {
+      "conceptual": [
+        "multiple_choice",
+        "short_answer",
+        "concept_mapping"
+      ],
+      "procedural": [
+        "step_by_step",
+        "implementation",
+        "debugging"
+      ],
+      "analytical": [
+        "case_study",
+        "comparison",
+        "evaluation"
+      ],
+      "creative": [
+        "project",
+        "design",
+        "synthesis"
+      ]
+    },
+    "complexity_indicators": {
+      "basic": {
+        "tokens_required": 50,
+        "context_depth": "shallow",
+        "examples_needed": 1
+      },
+      "intermediate": {
+        "tokens_required": 150,
+        "context_depth": "moderate",
+        "examples_needed": 2
+      },
+      "advanced": {
+        "tokens_required": 300,
+        "context_depth": "deep",
+        "examples_needed": 3
+      },
+      "expert": {
+        "tokens_required": 500,
+        "context_depth": "comprehensive",
+        "examples_needed": 4
+      }
+    },
+    "adaptive_parameters": {
+      "mastery_threshold_range": [
+        0.6,
+        0.9
+      ],
+      "difficulty_adjustment_factor": 0.1,
+      "time_limit_flexibility": 0.2,
+      "hint_system_enabled": true
+    }
+  },
+  "ai_agent_instructions": {
+    "content_generation": {
+      "style": "educational_conversational",
+      "technical_level": "adaptive_to_student",
+      "explanation_depth": "scaffolded",
+      "example_requirements": "context_specific"
+    },
+    "assessment_generation": {
+      "question_variety": [
+        "conceptual",
+        "procedural",
+        "analytical"
+      ],
+      "difficulty_calibration": "student_performance_based",
+      "feedback_style": "constructive_detailed",
+      "hint_generation": "progressive_disclosure"
+    },
+    "interaction_patterns": {
+      "questioning_strategy": "socratic_method",
+      "error_handling": "misconception_addressing",
+      "motivation_techniques": [
+        "progress_tracking",
+        "achievement_recognition"
+      ],
+      "personalization_factors": [
+        "learning_style",
+        "pace",
+        "interests"
+      ]
+    }
+  }
+}

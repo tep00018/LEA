@@ -1,0 +1,124 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+lea_env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Data directories (IMPORTANT - sensitive course content)
+data/org_docs/*
+!data/org_docs/.gitkeep
+!data/org_docs/DEMO101/
+
+data/md_docs/*
+!data/md_docs/.gitkeep
+!data/md_docs/DEMO101/
+
+data/chroma_data/*
+!data/chroma_data/.gitkeep
+!data/chroma_data/DEMO101/
+
+data/metadata/*
+!data/metadata/.gitkeep
+!data/metadata/doc_metadata_DEMO101.json
+
+data/mastery_tracking/*
+!data/mastery_tracking/.gitkeep
+
+data/signatures/*
+!data/signatures/.gitkeep
+
+# Keep the synthetic DEMO101 course only: every other KC model, course profile and course file is ignored
+data/kc_models/*
+!data/kc_models/.gitkeep
+!data/kc_models/DEMO101/
+
+data/course_profiles/*
+!data/course_profiles/.gitkeep
+!data/course_profiles/DEMO101.json
+
+# Course-building and evaluation files other than DEMO101 (data_foundation/)
+data_foundation/*.xlsx
+!data_foundation/DEMO101*.xlsx
+data_foundation/KC_Model_*.json
+!data_foundation/KC_Model_DEMO101.json
+data_foundation/ragas_*.json
+data_foundation/tutor_natural_checkpoints/
+
+# Pickles, logs and simulation output
+*.pkl
+data/*_logs/
+simulation_results/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Redis dumps
+dump.rdb
+
+# ngrok
+ngrok.yml
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Streamlit
+.streamlit/secrets.toml
