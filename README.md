@@ -92,6 +92,10 @@ Visit http://localhost:8501
 
 Developed as part of a dissertation on adaptive intelligent tutoring systems (see Citation below).
 
+## Future work
+
+The next generation of LEA (FastAPI backend, Flutter client, teacher tools and an open demonstration course) is developed in [LEA-platform](https://github.com/tep00018/LEA-platform). This repository, at tag [v1.0-snsc](https://github.com/tep00018/LEA/releases/tag/v1.0-snsc), is the code version accompanying the SN Computer Science article and is kept unchanged.
+
 ## License
 
 Apache 2.0 License - see [LICENSE.txt](LICENSE.txt)
